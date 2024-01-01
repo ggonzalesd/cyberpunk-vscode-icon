@@ -1,0 +1,22 @@
+{
+  "name": "extra-icon-plus",
+  "displayName": "ExtraIcon",
+  "description": "This is an extra icon plus",
+  "version": "0.0.1",
+  "publisher": "poggers",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "extra-icon-plus",
+        "label": "Extra Icon PLUS",
+        "path": "icon-theme.json"
+      }
+    ]
+  }
+}

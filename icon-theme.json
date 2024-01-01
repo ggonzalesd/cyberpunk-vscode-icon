@@ -1,0 +1,48 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "images/_.svg"
+    },
+    "file.c": {
+      "iconPath": "images/c.svg"
+    },
+    "file.cpp": {
+      "iconPath": "images/cpp.svg"
+    },
+    "file.h": {
+      "iconPath": "images/h.svg"
+    },
+    "file.hpp": {
+      "iconPath": "images/hpp.svg"
+    },
+    // Folder
+    "folder._": {
+      "iconPath": "images/folder._.svg"
+    },
+    "folder.src": {
+      "iconPath": "images/folder.src.svg"
+    },
+    "folder.req": {
+      "iconPath": "images/folder.requests.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "folder._",
+  "fileExtensions": {
+    // C / C++
+    "c": "file.c",
+    "h": "file.h",
+    "cpp": "file.cpp",
+    "c++": "file.cpp",
+    "hpp": "file.hpp",
+    "h++": "file.hpp",
+    // Binary
+  },
+  "folderNames": {
+    "src": "folder.src",
+
+    // API
+    "requests":"folder.req",
+    "http":"folder.req",
+  }
+}
