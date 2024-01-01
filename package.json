@@ -1,9 +1,9 @@
 {
-  "name": "extra-icon-plus",
-  "displayName": "ExtraIcon",
-  "description": "This is an extra icon plus",
+  "name": "cyberpunk-glass-icons",
+  "displayName": "Cyberpunk Glass Icons",
+  "description": "This is a simple Cyberpunk Icon Pack",
   "version": "0.0.1",
-  "publisher": "poggers",
+  "publisher": "ggonzalesd",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -13,8 +13,8 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "extra-icon-plus",
-        "label": "Extra Icon PLUS",
+        "id": "ceyberpunk-glass-icons",
+        "label": "Cyberpunk Glass Icons",
         "path": "icon-theme.json"
       }
     ]
