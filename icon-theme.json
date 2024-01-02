@@ -3,11 +3,92 @@
     "_file": {
       "iconPath": "images/_.svg"
     },
+    // General
+    "editorconfig": {
+      "iconPath": "images/editorconfig.svg"
+    },
+    "config": {
+      "iconPath": "images/config.svg"
+    },
+    "env": {
+      "iconPath": "images/env.svg"
+    },
+    "db": {
+      "iconPath": "images/db.svg"
+    },
+    // git
+    "git": {
+      "iconPath": "images/git.svg"
+    },
+    // Python
+    "py": {
+      "iconPath": "images/py.svg"
+    },
+    "pyw": {
+      "iconPath": "images/pyw.svg"
+    },
+    "ipynb": {
+      "iconPath": "images/ipynb.svg"
+    },
+    "pyc": {
+      "iconPath": "images/pyc.svg"
+    },
+    "__init__.py": {
+      "iconPath": "images/__init__.py.svg"
+    },
+    "requirements.txt": {
+      "iconPath": "images/requirements.txt.svg"
+    },
+    // JAVA
+    "java": {
+      "iconPath": "images/java.svg"
+    },
+    "class": {
+      "iconPath": "images/class.svg"
+    },
+    "jar": {
+      "iconPath": "images/jar.svg"
+    },
+    // node
+    "node": {
+      "iconPath": "images/node.svg"
+    },
+    // Java script
     "js": {
       "iconPath": "images/js.svg"
     },
+    "spec.js": {
+      "iconPath": "images/spec.js.svg"
+    },
+    "config.js": {
+      "iconPath": "images/config.js.svg"
+    },
+    "index.js": {
+      "iconPath": "images/index.js.svg"
+    },
+    "comp.js": {
+      "iconPath": "images/comp.js.svg"
+    },
+    "module.js": {
+      "iconPath": "images/module.js.svg"
+    },
     "jsx": {
       "iconPath": "images/jsx.svg"
+    },
+    "index.jsx": {
+      "iconPath": "images/index.jsx.svg"
+    },
+    "schema.js": {
+      "iconPath": "images/schema.js.svg"
+    },
+    "handler.js": {
+      "iconPath": "images/handler.js.svg"
+    },
+    "model.js": {
+      "iconPath": "images/model.js.svg"
+    },
+    "db.js": {
+      "iconPath": "images/db.js.svg"
     },
     "route.js": {
       "iconPath": "images/route.js.svg"
@@ -18,16 +99,52 @@
     "ts": {
       "iconPath": "images/ts.svg"
     },
+    "spec.ts": {
+      "iconPath": "images/spec.ts.svg"
+    },
+    "d.ts": {
+      "iconPath": "images/d.ts.svg"
+    },
+    "config.ts": {
+      "iconPath": "images/config.ts.svg"
+    },
+    "index.ts": {
+      "iconPath": "images/index.ts.svg"
+    },
+    "schema.ts": {
+      "iconPath": "images/schema.ts.svg"
+    },
+    "handler.ts": {
+      "iconPath": "images/handler.ts.svg"
+    },
+    "model.ts": {
+      "iconPath": "images/model.ts.svg"
+    },
+    "db.ts": {
+      "iconPath": "images/db.ts.svg"
+    },
     "route.ts": {
       "iconPath": "images/route.ts.svg"
     },
     "service.ts": {
       "iconPath": "images/service.ts.svg"
     },
+    "comp.ts": {
+      "iconPath": "images/comp.ts.svg"
+    },
+    "module.ts": {
+      "iconPath": "images/module.ts.svg"
+    },
     "tsx": {
       "iconPath": "images/tsx.svg"
     },
+    "index.tsx": {
+      "iconPath": "images/index.tsx.svg"
+    },
     // C / C++
+    "main": {
+      "iconPath": "images/main.svg"
+    },
     "c": {
       "iconPath": "images/c.svg"
     },
@@ -41,35 +158,145 @@
       "iconPath": "images/hpp.svg"
     },
     "o": {
-      "iconPath": "images/o.svg"
+      "iconPath": "images/o_.svg"
+    },
+    // DATA
+    "copy": {
+      "iconPath": "images/copy.svg"
+    },
+    "sheets": {
+      "iconPath": "images/sheets.svg"
+    },
+    "compress": {
+      "iconPath": "images/compress.svg"
+    },
+    "txt": {
+      "iconPath": "images/txt.svg"
+    },
+    "log": {
+      "iconPath": "images/log.svg"
+    },
+    "bin": {
+      "iconPath": "images/bin.svg"
+    },
+    // Web
+    "json": {
+      "iconPath": "images/json.svg"
+    },
+    "html": {
+      "iconPath": "images/html.svg"
+    },
+    "index.html": {
+      "iconPath": "images/index.html.svg"
+    },
+    "css": {
+      "iconPath": "images/css.svg"
+    },
+    // 3d
+    "3d": {
+      "iconPath": "images/3d.svg"
+    },
+    "mtl": {
+      "iconPath": "images/mtl.svg"
+    },
+    // scripts
+    "script": {
+      "iconPath": "images/script.svg"
     },
     // Folder
     "folder._": {
       "iconPath": "images/folder._.svg"
     },
     "folder.src": {
-      "iconPath": "images/folder.src.svg",
-      "fontColor": "#ff00ff"
+      "iconPath": "images/folder.src.svg"
     },
     "folder.req": {
       "iconPath": "images/folder.requests.svg"
-    }
+    },
+    // node
+    "folder.node_modules": {
+      "iconPath": "images/folder.node_modules.svg"
+    },
+    // Front
+    "folder.angular": {
+      "iconPath": "images/folder.angular.svg"
+    },
+    // LANGS
+    "folder.py": {
+      "iconPath": "images/folder.py.svg"
+    },
   },
   "file": "_file",
   "folder": "folder._",
   "fileExtensions": {
+    // General
+    "config": "config",
+    "cfg": "config",
+    "properties": "config",
+    "settings": "config",
+    "conf": "config",
+    "env": "env",
+    "db": "db",
+    "sql": "db",
+    "psql": "db",
+    "database": "db",
+    // Python
+    "py": "py",
+    "pyi": "py",
+    "pyw": "pyw",
+    "ipynb": "ipynb",
+    "pyc": "pyc",
+    // JAVA
+    "java": "java",
+    "class": "class",
+    "jar": "jar",
     // Javascript
     "js": "js",
+    "spec.js": "spec.js",
+    "test.js": "spec.js",
+    "mjs": "js",
+    "component.js": "comp.js",
+    "comp.js": "comp.js",
+    "module.js": "module.js",
     "jsx": "jsx",
     "ts": "ts",
+    "spec.ts": "spec.ts",
+    "test.ts": "spec.ts",
+    "d.ts": "d.ts",
+    "mts": "ts",
+    "component.ts": "comp.ts",
+    "comp.ts": "comp.ts",
+    "module.ts": "module.ts",
     "tsx": "tsx",
+    "config.js": "config.js",
+    "conf.js": "config.js",
+    "config.ts": "config.ts",
+    "conf.ts": "config.ts",
+    "schema.js": "schema.js",
+    "schemas.js": "schema.js",
+    "handler.js": "handler.js",
+    "model.js": "model.js",
+    "models.js": "model.js",
+    "db.js": "db.js",
+    "pool.js": "db.js",
+    "database.js": "db.js",
     "route.js": "route.js",
     "router.js": "route.js",
     "routes.js": "route.js",
+    "controller.js": "route.js",
     "service.js": "service.js",
+    "schema.ts": "schema.ts",
+    "schemas.ts": "schema.ts",
+    "handler.ts": "handler.ts",
+    "model.ts": "model.ts",
+    "models.ts": "model.ts",
+    "db.ts": "db.ts",
+    "pool.ts": "db.ts",
+    "database.ts": "db.ts",
     "route.ts": "route.ts",
     "router.ts": "route.ts",
     "routes.ts": "route.ts",
+    "controller.ts": "route.ts",
     "service.ts": "service.ts",
     // C / C++
     "c": "c",
@@ -79,7 +306,47 @@
     "hpp": "hpp",
     "h++": "hpp",
     "o": "o",
+    // DATA
+    "copy": "copy",
+    "cp": "copy",
+    "csv": "sheets",
+    "xlsx": "sheets",
+    "txt": "txt",
+    "text": "txt",
+    "log": "log",
+    "zip": "compress",
+    "rar": "compress",
+    "tar": "compress",
+    "gz": "compress",
+    "7z": "compress",
+    "bz2": "compress",
+    "bin": "bin",
+    "dat": "bin",
+    "data": "bin",
+    // Web
+    "json": "json",
+    "html": "html",
+    "css": "css",
+    "sass": "css",
+    "scss": "css",
+    "styl": "css",
     // Binary
+    "exe": "main",
+    // 3d
+    "stl": "3d",
+    "3ds": "3d",
+    "blend": "3d",
+    "fbx": "3d",
+    "dae": "3d",
+    "obj": "3d",
+    //"ply": "3d",
+    "mtl": "mtl",
+    // Script
+    "bash": "script",
+    "bat": "script",
+    "cmd": "script",
+    "sh": "script",
+    "zsh": "script"
   },
   "folderNames": {
     "src": "folder.src",
@@ -87,5 +354,54 @@
     // API
     "requests":"folder.req",
     "http":"folder.req",
+
+    // node
+    "node_modules": "folder.node_modules",
+
+    // Front
+    "angular": "folder.angular",
+    ".angular": "folder.angular",
+
+    // LANGS
+    "python": "folder.py",
+    "py": "folder.py",
+    "__pycache__": "folder.py",
+  },
+  "fileNames": {
+    ".gitignore": "git",
+    ".gitkeep": "git",
+    ".gitattributes": "git",
+
+    ".env": "env",
+    ".env.example": "env",
+    ".editorconfig": "editorconfig",
+    
+    "main": "main",
+    "__init__.py": "__init__.py",
+    "requirements.txt": "requirements.txt",
+    "index.html": "index.html",
+
+    "package.json": "node",
+    "package-lock.json": "node",
+    ".nvmrc": "node",
+
+    "index.js": "index.js",
+    "index.ts": "index.ts",
+    "main.js": "index.js",
+    "main.ts": "index.ts",
+    "app.js": "index.js",
+    "app.ts": "index.ts",
+    "main.jsx": "index.jsx",
+    "app.jsx": "index.jsx",
+    "index.jsx": "index.jsx",
+    "index.tsx": "index.tsx",
+    "main.tsx": "index.tsx",
+    "app.tsx": "index.tsx",
+    "config.js": "config.js",
+    "config.ts": "config.ts",
+    "tsconfig.json": "config.ts",
+    "tsconfig.node.json": "config.ts",
+    "tsconfig.spec.json": "config.ts",
+    "tsconfig.app.json": "config.ts",
   }
 }
