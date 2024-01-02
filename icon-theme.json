@@ -3,24 +3,53 @@
     "_file": {
       "iconPath": "images/_.svg"
     },
-    "file.c": {
+    "js": {
+      "iconPath": "images/js.svg"
+    },
+    "jsx": {
+      "iconPath": "images/jsx.svg"
+    },
+    "route.js": {
+      "iconPath": "images/route.js.svg"
+    },
+    "service.js": {
+      "iconPath": "images/service.js.svg"
+    },
+    "ts": {
+      "iconPath": "images/ts.svg"
+    },
+    "route.ts": {
+      "iconPath": "images/route.ts.svg"
+    },
+    "service.ts": {
+      "iconPath": "images/service.ts.svg"
+    },
+    "tsx": {
+      "iconPath": "images/tsx.svg"
+    },
+    // C / C++
+    "c": {
       "iconPath": "images/c.svg"
     },
-    "file.cpp": {
+    "cpp": {
       "iconPath": "images/cpp.svg"
     },
-    "file.h": {
+    "h": {
       "iconPath": "images/h.svg"
     },
-    "file.hpp": {
+    "hpp": {
       "iconPath": "images/hpp.svg"
+    },
+    "o": {
+      "iconPath": "images/o.svg"
     },
     // Folder
     "folder._": {
       "iconPath": "images/folder._.svg"
     },
     "folder.src": {
-      "iconPath": "images/folder.src.svg"
+      "iconPath": "images/folder.src.svg",
+      "fontColor": "#ff00ff"
     },
     "folder.req": {
       "iconPath": "images/folder.requests.svg"
@@ -29,13 +58,27 @@
   "file": "_file",
   "folder": "folder._",
   "fileExtensions": {
+    // Javascript
+    "js": "js",
+    "jsx": "jsx",
+    "ts": "ts",
+    "tsx": "tsx",
+    "route.js": "route.js",
+    "router.js": "route.js",
+    "routes.js": "route.js",
+    "service.js": "service.js",
+    "route.ts": "route.ts",
+    "router.ts": "route.ts",
+    "routes.ts": "route.ts",
+    "service.ts": "service.ts",
     // C / C++
-    "c": "file.c",
-    "h": "file.h",
-    "cpp": "file.cpp",
-    "c++": "file.cpp",
-    "hpp": "file.hpp",
-    "h++": "file.hpp",
+    "c": "c",
+    "h": "h",
+    "cpp": "cpp",
+    "c++": "cpp",
+    "hpp": "hpp",
+    "h++": "hpp",
+    "o": "o",
     // Binary
   },
   "folderNames": {
