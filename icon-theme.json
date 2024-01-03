@@ -7,6 +7,9 @@
     "editorconfig": {
       "iconPath": "images/editorconfig.svg"
     },
+    "pom": {
+      "iconPath": "images/pom.svg"
+    },
     "config": {
       "iconPath": "images/config.svg"
     },
@@ -15,6 +18,13 @@
     },
     "db": {
       "iconPath": "images/db.svg"
+    },
+    "makefile": {
+      "iconPath": "images/makefile.svg"
+    },
+    // Docker
+    "docker": {
+      "iconPath": "images/docker.svg"
     },
     // git
     "git": {
@@ -33,11 +43,24 @@
     "pyc": {
       "iconPath": "images/pyc.svg"
     },
+    "py.so": {
+      "iconPath": "images/py.so.svg"
+    },
     "__init__.py": {
       "iconPath": "images/__init__.py.svg"
     },
     "requirements.txt": {
       "iconPath": "images/requirements.txt.svg"
+    },
+    // GO
+    "go": {
+      "iconPath": "images/go.svg"
+    },
+    "main.go": {
+      "iconPath": "images/main.go.svg"
+    },
+    "go.sum": {
+      "iconPath": "images/go.sum.svg"
     },
     // JAVA
     "java": {
@@ -52,6 +75,9 @@
     // node
     "node": {
       "iconPath": "images/node.svg"
+    },
+    "angular": {
+      "iconPath": "images/angular.svg"
     },
     // Java script
     "js": {
@@ -160,6 +186,10 @@
     "o": {
       "iconPath": "images/o_.svg"
     },
+    // TEXT
+    "md": {
+      "iconPath": "images/md.svg"
+    },
     // DATA
     "copy": {
       "iconPath": "images/copy.svg"
@@ -192,6 +222,32 @@
     "css": {
       "iconPath": "images/css.svg"
     },
+    "index.css": {
+      "iconPath": "images/index.css.svg"
+    },
+    // Media
+    "img": {
+      "iconPath": "images/img.svg"
+    },
+    "gif": {
+      "iconPath": "images/gif.svg"
+    },
+    "svg": {
+      "iconPath": "images/svg.svg"
+    },
+    "ico": {
+      "iconPath": "images/ico.svg"
+    },
+    // Shader
+    "glsl": {
+      "iconPath": "images/glsl.svg"
+    },
+    "vert": {
+      "iconPath": "images/vert.svg"
+    },
+    "geom": {
+      "iconPath": "images/geom.svg"
+    },
     // 3d
     "3d": {
       "iconPath": "images/3d.svg"
@@ -207,23 +263,119 @@
     "folder._": {
       "iconPath": "images/folder._.svg"
     },
+    "folder.volume": {
+      "iconPath": "images/folder.storage.svg"
+    },
+    "folder.target": {
+      "iconPath": "images/folder.target.svg"
+    },
+    "folder.public": {
+      "iconPath": "images/folder.public.svg"
+    },
+    "folder.static": {
+      "iconPath": "images/folder.static.svg"
+    },
+    "folder.model": {
+      "iconPath": "images/folder.model.svg"
+    },
     "folder.src": {
       "iconPath": "images/folder.src.svg"
     },
+    "folder.maven": {
+      "iconPath": "images/folder.mvn.svg"
+    },
+    "folder.config": {
+      "iconPath": "images/folder.config.svg"
+    },
+    "folder.env": {
+      "iconPath": "images/folder.env.svg"
+    },
+    "folder.include": {
+      "iconPath": "images/folder.include.svg"
+    },
+    "folder.o": {
+      "iconPath": "images/folder.o.svg"
+    },
     "folder.req": {
       "iconPath": "images/folder.requests.svg"
+    },
+    "folder.test": {
+      "iconPath": "images/folder.test.svg"
+    },
+    // config
+    "folder.vscode": {
+      "iconPath": "images/folder.vscode.svg"
+    },
+    // Media
+    "folder.img": {
+      "iconPath": "images/folder.img.svg"
+    },
+    "folder.ico": {
+      "iconPath": "images/folder.ico.svg"
+    },
+    "folder.shader": {
+      "iconPath": "images/folder.glsl.svg"
     },
     // node
     "folder.node_modules": {
       "iconPath": "images/folder.node_modules.svg"
     },
     // Front
+    "folder.html": {
+      "iconPath": "images/folder.html.svg"
+    },
+    "folder.theme": {
+      "iconPath": "images/folder.theme.svg"
+    },
+    "folder.tool": {
+      "iconPath": "images/folder.tool.svg"
+    },
+    "folder.context": {
+      "iconPath": "images/folder.context.svg"
+    },
+    "folder.hook": {
+      "iconPath": "images/folder.hook.svg"
+    },
+    "folder.portal": {
+      "iconPath": "images/folder.portal.svg"
+    },
+    "folder.js": {
+      "iconPath": "images/folder.js.svg"
+    },
+    "folder.ts": {
+      "iconPath": "images/folder.ts.svg"
+    },
+    "folder.d.ts":{
+      "iconPath": "images/folder.d.ts.svg"
+    },
     "folder.angular": {
       "iconPath": "images/folder.angular.svg"
+    },
+    "folder.comp": {
+      "iconPath": "images/folder.comp.svg"
+    },
+    // Back
+    "folder.db": {
+      "iconPath": "images/folder.db.svg"
+    },
+    "folder.service": {
+      "iconPath": "images/folder.service.svg"
+    },
+    "folder.schema": {
+      "iconPath": "images/folder.schema.svg"
+    },
+    "folder.router": {
+      "iconPath": "images/folder.router.svg"
+    },
+    "folder.handler": {
+      "iconPath": "images/folder.handler.svg"
     },
     // LANGS
     "folder.py": {
       "iconPath": "images/folder.py.svg"
+    },
+    "folder.java": {
+      "iconPath": "images/folder.java.svg"
     },
   },
   "file": "_file",
@@ -240,12 +392,23 @@
     "sql": "db",
     "psql": "db",
     "database": "db",
+    // Docker
+    "dockerfile": "docker",
+    "compose.yaml": "docker",
+    "compose.yml": "docker",
+    "dockercompose.yaml": "docker",
+    "dockercompose.yml": "docker",
+    "docker-compose.yaml": "docker",
+    "docker-compose.yml": "docker",
     // Python
     "py": "py",
     "pyi": "py",
     "pyw": "pyw",
     "ipynb": "ipynb",
     "pyc": "pyc",
+    "so": "py.so",
+    // Go
+    "go": "go",
     // JAVA
     "java": "java",
     "class": "class",
@@ -257,7 +420,7 @@
     "mjs": "js",
     "component.js": "comp.js",
     "comp.js": "comp.js",
-    "module.js": "module.js",
+    "module.js": "angular",
     "jsx": "jsx",
     "ts": "ts",
     "spec.ts": "spec.ts",
@@ -266,7 +429,7 @@
     "mts": "ts",
     "component.ts": "comp.ts",
     "comp.ts": "comp.ts",
-    "module.ts": "module.ts",
+    "module.ts": "angular",
     "tsx": "tsx",
     "config.js": "config.js",
     "conf.js": "config.js",
@@ -306,6 +469,7 @@
     "hpp": "hpp",
     "h++": "hpp",
     "o": "o",
+    "dll": "o",
     // DATA
     "copy": "copy",
     "cp": "copy",
@@ -332,6 +496,26 @@
     "styl": "css",
     // Binary
     "exe": "main",
+    // text
+    "md": "md",
+    // media
+    "jpg": "img",
+    "png": "img",
+    "jpeg": "img",
+    "webp": "img",
+    "hdr": "img",
+    "exr": "img",
+    "gif": "gif",
+    "svg": "svg",
+    "ico": "ico",
+    "jpg~": "copy",
+    "jpeg~": "copy",
+    "png~": "copy",
+    // Shader
+    "glsl": "glsl",
+    "frag": "glsl",
+    "vert": "vert",
+    "geom": "geom",
     // 3d
     "stl": "3d",
     "3ds": "3d",
@@ -350,41 +534,148 @@
   },
   "folderNames": {
     "src": "folder.src",
-
+    "model": "folder.model",
+    "models": "folder.model",
+    "target": "folder.target",
+    "dist": "folder.target",
+    "build": "folder.target",
+    "volume": "folder.volume",
+    "include": "folder.include",
+    "object": "folder.o",
+    "objects": "folder.o",
+    "lib": "folder.o",
+    "lib64": "folder.o",
+    "test": "folder.test",
+    "tests": "folder.test",
+    "config": "folder.config",
+    "configuration": "folder.config",
+    "settings": "folder.config",
+    "env": "folder.env",
+    ".env": "folder.env",
+    
     // API
     "requests":"folder.req",
     "http":"folder.req",
-
+    
+    // Config
+    ".vscode": "folder.vscode",
+    "vscode": "folder.vscode",
+    "mvn": "folder.maven",
+    ".mvn":"folder.maven",
+    
+    // Media
+    "img": "folder.img",
+    "imgs": "folder.img",
+    "icons": "folder.ico",
+    "images": "folder.img",
+    "image": "folder.img",
+    "shader": "folder.shader",
+    "shaders": "folder.shader",
+    "glsl": "folder.shader",
+    
     // node
     "node_modules": "folder.node_modules",
-
+    
     // Front
+    "assets": "folder.static",
+    "static": "folder.static",
+    "statics": "folder.static",
+    "public": "folder.public",
+    "hook": "folder.hook",
+    "hooks": "folder.hook",
+    "portal": "folder.portal",
+    "portals": "folder.portal",
+    "context": "folder.context",
+    "contexts": "folder.context",
+    "theme": "folder.theme",
+    "themes": "folder.theme",
+    "util": "folder.tool",
+    "utils": "folder.tool",
+    "page": "folder.html",
+    "pages": "folder.html",
+    "html": "folder.html",
+
+    "js": "folder.js",
+    "javascript": "folder.js",
+    "ts": "folder.ts",
+    "types": "folder.d.ts",
+    "typescript": "folder.ts",
     "angular": "folder.angular",
     ".angular": "folder.angular",
+    "comp": "folder.comp",
+    "comps": "folder.comp",
+    "component": "folder.comp",
+    "components": "folder.comp",
+
+    // back
+    "data": "folder.db",
+    "db": "folder.db",
+    "database": "folder.db",
+    "repository": "folder.db",
+    "repositories": "folder.db",
+    "router": "folder.router",
+    "routers": "folder.router",
+    "route": "folder.router",
+    "routes": "folder.router",
+    "controller": "folder.router",
+    "controllers": "folder.router",
+    "handler": "folder.handler",
+    "handlers": "folder.handler",
+    "middlewares": "folder.handler",
+    "middleware": "folder.handler",
+    "service": "folder.service",
+    "services": "folder.service",
+    "schemas": "folder.schema",
+    "schema": "folder.schema",
 
     // LANGS
     "python": "folder.py",
     "py": "folder.py",
     "__pycache__": "folder.py",
+    "java": "folder.java"
   },
   "fileNames": {
     ".gitignore": "git",
     ".gitkeep": "git",
     ".gitattributes": "git",
 
+    // DOkcer
+    ".dockerignore":"docker",
+    "dockerfile": "docker",
+    "compose.yaml": "docker",
+    "compose.yml": "docker",
+    "dockercompose.yaml": "docker",
+    "dockercompose.yml": "docker",
+    "docker-compose.yaml": "docker",
+    "docker-compose.yml": "docker",
+
+    // general
     ".env": "env",
     ".env.example": "env",
     ".editorconfig": "editorconfig",
-    
+    "makefile": "makefile",
+    "pom.xml": "pom",
+
     "main": "main",
     "__init__.py": "__init__.py",
     "requirements.txt": "requirements.txt",
     "index.html": "index.html",
+    "index.css": "index.css",
+    "style.css": "index.css",
 
+    // GO
+    "main.go": "main.go",
+    "go.sum": "go.sum",
+    "go.mod": "go.sum",
+
+    // NODE
     "package.json": "node",
     "package-lock.json": "node",
     ".nvmrc": "node",
 
+    "angular.json": "angular",
+
+    "script.js": "index.js",
     "index.js": "index.js",
     "index.ts": "index.ts",
     "main.js": "index.js",
@@ -403,5 +694,9 @@
     "tsconfig.node.json": "config.ts",
     "tsconfig.spec.json": "config.ts",
     "tsconfig.app.json": "config.ts",
+
+    // Media
+    "geom.glsl": "geom",
+    "vert.glsl": "vert",
   }
 }

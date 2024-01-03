@@ -24,7 +24,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="1.0932428"
-     inkscape:cx="238.73928"
+     inkscape:cx="238.28193"
      inkscape:cy="253.83199"
      inkscape:window-width="1362"
      inkscape:window-height="744"
@@ -89,14 +89,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="display:none;fill:#f57e28;fill-opacity:1;stroke:none;stroke-width:50;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1"
+       width="459.82504"
+       height="459.82504"
+       x="20.572235"
+       y="21.402084"
+       ry="50.764935" />
     <path
-       id="path4"
-       style="fill:#f57e28;fill-opacity:0.19177686;stroke:#f57e28;stroke-width:20;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 252.51172 57.875 L 252.51172 57.916016 C 247.68157 58.514376 38.775391 112.22461 38.775391 112.22461 L 97.701172 370.46289 L 252.46289 458.66211 L 252.46289 458.8125 L 252.5918 458.73633 L 252.72656 458.8125 L 252.72656 458.65625 L 400.96289 371.33008 L 466.41211 112.22461 C 466.41211 112.22461 257.50593 58.514376 252.67578 57.916016 L 252.67578 57.875 C 252.67325 57.875276 252.59642 57.89422 252.59375 57.894531 C 252.59108 57.89422 252.51425 57.875276 252.51172 57.875 z " />
-    <path
-       d="m 187.50706,176.98528 -101.04,54.96 v 25.44 l 101.04,57.6 v -33.84 l -72.96,-40.08 v 6 l 72.96,-39.12 z m 23.76004,169.68 h 28.08 l 52.8,-204.96 h -30 z m 104.63981,-33.84 101.04,-54.96 v -25.44 l -101.04,-57.6 v 33.84 l 73.2,40.08 v -6 l -73.2,39.12 z"
+       d="M 174.65993,165.3118 53.400666,229.81903 v 29.85926 L 174.65993,327.28413 V 287.56569 L 87.099794,240.5233 v 7.04227 l 87.560136,-45.91563 z m 28.51469,199.15554 h 33.69912 L 300.23963,123.90322 H 264.23629 Z M 328.75404,324.7489 450.01331,260.24167 V 230.38242 L 328.75404,162.77658 v 39.71843 l 87.84816,47.0424 v -7.04227 l -87.84816,45.91563 z"
        id="text5"
-       style="-inkscape-font-specification:'System-ui Bold';fill:#f57e28;fill-opacity:1;stroke-width:20;stroke-linejoin:round;stroke-opacity:0.99613;paint-order:markers fill stroke"
+       style="-inkscape-font-specification:'System-ui Bold';display:inline;fill:#f57e28;fill-opacity:1;stroke-width:23.7368;stroke-linejoin:round;stroke-opacity:0.99613;paint-order:markers fill stroke"
        aria-label="&lt;/&gt;" />
   </g>
 </svg>

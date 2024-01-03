@@ -25,7 +25,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.96390292"
      inkscape:cx="280.62992"
-     inkscape:cy="232.90727"
+     inkscape:cy="231.86982"
      inkscape:window-width="1362"
      inkscape:window-height="744"
      inkscape:window-x="0"
@@ -76,12 +76,16 @@
      id="layer1">
     <path
        id="rect53-0"
-       style="fill:none;fill-opacity:0.3137255;fill-rule:nonzero;stroke:#40ff5c;stroke-width:22.062;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="fill:#40ff5c;fill-opacity:0.3137255;fill-rule:nonzero;stroke:#40ff5c;stroke-width:22.062;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.26813025"
        d="m 462.68749,104.21979 c 0,-1.64895 -0.59137,-3.17324 -1.54688,-4.517583 v -48.26953 c 0,-5.97292 -5.36366,-10.78125 -12.02538,-10.78125 H 307.18359 c -6.66173,0 -12.02344,4.80833 -12.02344,10.78125 v 43.39063 H 51.087889 c -6.7206,0 -12.13086,4.19106 -12.13086,9.396483 v 341.68359 c 0,5.20542 5.41026,9.39453 12.13086,9.39453 H 450.55663 c 6.7206,0 12.13086,-4.18911 12.13086,-9.39453 z" />
     <path
-       d="m 207.38386,232.22142 -71.13842,43.33895 v 12.27937 l 71.13842,44.78358 v -16.43268 l -59.69288,-36.47695 v 4.15332 l 59.69288,-36.47695 z m 19.89761,126.40527 h 13.03031 l 37.68223,-154.21442 h -14.08682 z m 70.61005,-26.90626 71.13841,-43.33895 v -12.27937 l -71.13841,-44.78358 v 16.43268 l 59.69288,36.47695 v -4.15331 l -59.69288,36.47695 z"
+       d="m 225.73708,170.6111 -113.66031,69.24414 v 19.61917 l 113.66031,71.55227 V 304.77162 L 130.3637,246.49114 v 6.6359 l 95.37338,-58.28048 z m 31.79109,201.96206 h 20.81898 l 60.2062,-246.3937 h -22.507 z M 370.34429,329.5841 484.00458,260.33997 V 240.72079 L 370.34429,169.16852 v 26.25506 l 95.37337,58.28048 v -6.63588 l -95.37337,58.28048 z"
        id="text67"
-       style="font-size:240px;font-family:System-ui;-inkscape-font-specification:System-ui;fill:#40ff5c;fill-opacity:0.313725;stroke:#40ff5c;stroke-width:17.4818;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="font-size:240px;font-family:System-ui;-inkscape-font-specification:System-ui;fill:#40ff5c;fill-opacity:0.313725;stroke:#40ff5c;stroke-width:27.9313;stroke-linejoin:round;paint-order:markers fill stroke"
        aria-label="&lt;/&gt;" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:0.313725;stroke:#40ff5c;stroke-width:50;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-opacity:1"
+       d="M 37.751038,450.9104 V 99.515593"
+       id="path1" />
   </g>
 </svg>
