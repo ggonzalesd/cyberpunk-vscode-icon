@@ -22,6 +22,9 @@
     "config": {
       "iconPath": "images/config.svg"
     },
+    "eslint": {
+      "iconPath": "images/eslint.svg"
+    },
     "env": {
       "iconPath": "images/env.svg"
     },
@@ -167,6 +170,9 @@
     "service.js": {
       "iconPath": "images/service.js.svg"
     },
+    "auth.js": {
+      "iconPath": "images/auth.js.svg"
+    },
     "ts": {
       "iconPath": "images/ts.svg"
     },
@@ -199,6 +205,9 @@
     },
     "service.ts": {
       "iconPath": "images/service.ts.svg"
+    },
+    "auth.ts": {
+      "iconPath": "images/auth.ts.svg"
     },
     "comp.ts": {
       "iconPath": "images/comp.ts.svg"
@@ -427,6 +436,12 @@
     "folder.static": {
       "iconPath": "images/folder.static.svg"
     },
+    "folder.asset": {
+      "iconPath": "images/folder.asset.svg"
+    },
+    "folder.resource": {
+      "iconPath": "images/folder.resource.svg"
+    },
     "folder.filter": {
       "iconPath": "images/folder.filter.svg"
     },
@@ -493,6 +508,9 @@
     // Front
     "folder.html": {
       "iconPath": "images/folder.html.svg"
+    },
+    "folder.templates": {
+      "iconPath": "images/folder.templates.svg"
     },
     "folder.theme": {
       "iconPath": "images/folder.theme.svg"
@@ -612,6 +630,7 @@
     "spec.js": "spec.js",
     "test.js": "spec.js",
     "mjs": "js",
+    "cjs": "js",
     "component.js": "comp.js",
     "comp.js": "comp.js",
     "module.js": "angular",
@@ -642,6 +661,8 @@
     "routes.js": "route.js",
     "controller.js": "route.js",
     "service.js": "service.js",
+    "auth.js": "auth.js",
+    "security.js": "auth.js",
     "schema.ts": "schema.ts",
     "schemas.ts": "schema.ts",
     "handler.ts": "handler.ts",
@@ -655,6 +676,8 @@
     "routes.ts": "route.ts",
     "controller.ts": "route.ts",
     "service.ts": "service.ts",
+    "auth.ts": "auth.ts",
+    "security.ts": "auth.ts",
     // Arduino
     "ino": "ino",
     // CS
@@ -843,11 +866,10 @@
     "node_modules": "folder.node_modules",
     
     // Front
-    "resource": "folder.static",
-    "resources": "folder.static",
-    "assets": "folder.static",
+    "resource": "folder.resource",
+    "resources": "folder.resource",
+    "assets": "folder.asset",
     "static": "folder.static",
-    "statics": "folder.static",
     "public": "folder.public",
     "hook": "folder.hook",
     "hooks": "folder.hook",
@@ -861,6 +883,7 @@
     "utils": "folder.tool",
     "tool": "folder.tool",
     "tools": "folder.tool",
+    "templates": "folder.templates",
     "page": "folder.html",
     "pages": "folder.html",
     "html": "folder.html",
@@ -977,22 +1000,8 @@
     "package.json": "node",
     "package-lock.json": "node",
     ".nvmrc": "node",
-
-    "angular.json": "angular",
-
-    "script.js": "index.js",
-    "index.js": "index.js",
-    "index.ts": "index.ts",
-    "main.js": "index.js",
-    "main.ts": "index.ts",
-    "app.js": "index.js",
-    "app.ts": "index.ts",
-    "main.jsx": "index.jsx",
-    "app.jsx": "index.jsx",
-    "index.jsx": "index.jsx",
-    "index.tsx": "index.tsx",
-    "main.tsx": "index.tsx",
-    "app.tsx": "index.tsx",
+    ".eslintrc": "eslint",
+    ".eslintrc.cjs": "eslint",
     "config.js": "config.js",
     "config.ts": "config.ts",
     "tsconfig.json": "config.ts",
@@ -1001,6 +1010,25 @@
     "tsconfig.app.json": "config.ts",
     "vite.config.js": "vite",
     "vite.config.ts": "vite",
+
+    "angular.json": "angular",
+
+    "script.js": "index.js",
+    "index.js": "index.js",
+    "index.mjs": "index.js",
+    "index.ts": "index.ts",
+    "main.js": "index.js",
+    "main.mjs": "index.js",
+    "main.ts": "index.ts",
+    "app.js": "index.js",
+    "app.mjs": "index.js",
+    "app.ts": "index.ts",
+    "main.jsx": "index.jsx",
+    "app.jsx": "index.jsx",
+    "index.jsx": "index.jsx",
+    "index.tsx": "index.tsx",
+    "main.tsx": "index.tsx",
+    "app.tsx": "index.tsx",
 
     // Media
     "geom.glsl": "geom",
