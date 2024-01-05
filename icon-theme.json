@@ -121,6 +121,12 @@
     "node": {
       "iconPath": "images/node.svg"
     },
+    "yarn": {
+      "iconPath": "images/yarn.svg"
+    },
+    "webpack": {
+      "iconPath": "images/webpack.svg"
+    },
     "angular": {
       "iconPath": "images/angular.svg"
     },
@@ -409,6 +415,9 @@
     "folder._": {
       "iconPath": "images/folder._.svg"
     },
+    "folder.error": {
+      "iconPath": "images/folder.error.svg"
+    },
     "folder.bin": {
       "iconPath": "images/folder.bin.svg"
     },
@@ -429,6 +438,9 @@
     },
     "folder.security": {
       "iconPath": "images/folder.security.svg"
+    },
+    "folder.shared": {
+      "iconPath": "images/folder.shared.svg"
     },
     "folder.public": {
       "iconPath": "images/folder.public.svg"
@@ -495,6 +507,9 @@
     "folder.img": {
       "iconPath": "images/folder.img.svg"
     },
+    "folder.font": {
+      "iconPath": "images/folder.font.svg"
+    },
     "folder.ico": {
       "iconPath": "images/folder.ico.svg"
     },
@@ -504,6 +519,12 @@
     // node
     "folder.node_modules": {
       "iconPath": "images/folder.node_modules.svg"
+    },
+    "folder.yarn": {
+      "iconPath": "images/folder.yarn.svg"
+    },
+    "folder.webpack": {
+      "iconPath": "images/folder.webpack.svg"
     },
     // Front
     "folder.html": {
@@ -802,6 +823,7 @@
   },
   "folderNames": {
     "src": "folder.src",
+    "error": "folder.error",
     "main": "folder.main",
     "dto": "folder.dto",
     "payload": "folder.dto",
@@ -812,6 +834,7 @@
     "model": "folder.model",
     "models": "folder.model",
     "filter": "folder.filter",
+    "filters": "folder.filter",
     "debug": "folder.debug",
     "target": "folder.target",
     "dist": "folder.dist",
@@ -837,6 +860,7 @@
 
     // API
     "requests":"folder.req",
+    "request":"folder.req",
     "http":"folder.req",
     
     // Config
@@ -857,6 +881,8 @@
     "icons": "folder.ico",
     "images": "folder.img",
     "image": "folder.img",
+    "font": "folder.font",
+    "fonts": "folder.font",
     "shader": "folder.shader",
     "shaders": "folder.shader",
     "glsl": "folder.shader",
@@ -864,6 +890,10 @@
 
     // node
     "node_modules": "folder.node_modules",
+    "yarn": "folder.yarn",
+    ".yarn": "folder.yarn",
+    "webpack": "folder.webpack",
+    ".webpack": "folder.webpack",
     
     // Front
     "resource": "folder.resource",
@@ -871,6 +901,7 @@
     "assets": "folder.asset",
     "static": "folder.static",
     "public": "folder.public",
+    "shared": "folder.shared",
     "hook": "folder.hook",
     "hooks": "folder.hook",
     "portal": "folder.portal",
@@ -999,9 +1030,24 @@
     // NODE
     "package.json": "node",
     "package-lock.json": "node",
+    ".yarnrc": "yarn",
+    "yarnrc.lock": "yarn",
+    "yarn-error.log": "yarn",
+    "webpack.js": "webpack",
+    "webpack.ts": "webpack",
+    "webpack.common.js": "webpack",
+    "webpack.common.ts": "webpack",
+    "webpack.dev.js": "webpack",
+    "webpack.dev.ts": "webpack",
+    "webpack.prod.js": "webpack",
+    "webpack.prod.ts": "webpack",
+    "webpack.config.js": "webpack",
+    "webpack.config.ts": "webpack",
     ".nvmrc": "node",
     ".eslintrc": "eslint",
+    ".eslintrc.js": "eslint",
     ".eslintrc.cjs": "eslint",
+    ".eslintrc.mjs": "eslint",
     "config.js": "config.js",
     "config.ts": "config.ts",
     "tsconfig.json": "config.ts",
