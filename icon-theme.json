@@ -41,6 +41,9 @@
     "docker": {
       "iconPath": "images/docker.svg"
     },
+    "docker.1": {
+      "iconPath": "images/docker.1.svg"
+    },
     // git
     "git": {
       "iconPath": "images/git.svg"
@@ -48,6 +51,19 @@
     // r
     "r": {
       "iconPath": "images/r.svg"
+    },
+    // Ruby
+    "ruby": {
+      "iconPath": "images/ruby.svg"
+    },
+    "rubys": {
+      "iconPath": "images/rubys.svg"
+    },
+    "gemfile": {
+      "iconPath": "images/gemfile.svg",
+    },
+    "rubyx": {
+      "iconPath": "images/rubyx.svg"
     },
     // Python
     "py": {
@@ -158,6 +174,9 @@
     "index.jsx": {
       "iconPath": "images/index.jsx.svg"
     },
+    "layout.js": {
+      "iconPath": "images/layout.js.svg"
+    },
     "schema.js": {
       "iconPath": "images/schema.js.svg"
     },
@@ -226,6 +245,13 @@
     },
     "index.tsx": {
       "iconPath": "images/index.tsx.svg"
+    },
+    "layout.ts": {
+      "iconPath": "images/layout.ts.svg"
+    },
+    // NEXT
+    "nextjs": {
+      "iconPath": "images/nextjs.svg"
     },
     // Arduino
     "ino": {
@@ -454,6 +480,15 @@
     "folder.resource": {
       "iconPath": "images/folder.resource.svg"
     },
+    "folder.about": {
+      "iconPath": "images/folder.about.svg"
+    },
+    "folder.store": {
+      "iconPath": "images/folder.store.svg"
+    },
+    "folder.server": {
+      "iconPath": "images/folder.server.svg"
+    },
     "folder.filter": {
       "iconPath": "images/folder.filter.svg"
     },
@@ -465,6 +500,9 @@
     },
     "folder.src": {
       "iconPath": "images/folder.src.svg"
+    },
+    "folder.app": {
+      "iconPath": "images/folder.app.svg"
     },
     "folder.main": {
       "iconPath": "images/folder.main.svg"
@@ -525,6 +563,9 @@
     },
     "folder.webpack": {
       "iconPath": "images/folder.webpack.svg"
+    },
+    "folder.nextjs": {
+      "iconPath": "images/folder.nextjs.svg"
     },
     // Front
     "folder.html": {
@@ -611,15 +652,19 @@
     "psql": "db",
     "database": "db",
     // Docker
-    "dockerfile": "docker",
-    "compose.yaml": "docker",
-    "compose.yml": "docker",
-    "dockercompose.yaml": "docker",
-    "dockercompose.yml": "docker",
-    "docker-compose.yaml": "docker",
-    "docker-compose.yml": "docker",
+    "dockerfile": "docker.1",
+    "compose.yaml": "docker.1",
+    "compose.yml": "docker.1",
+    "dockercompose.yaml": "docker.1",
+    "dockercompose.yml": "docker.1",
+    "docker-compose.yaml": "docker.1",
+    "docker-compose.yml": "docker.1",
     // r
     "r": "r",
+    // RUBY
+    "rb": "ruby",
+    "rbs": "rubys",
+    "rbx": "rubyx",
     // Python
     "py": "py",
     "pyi": "py",
@@ -823,6 +868,7 @@
   },
   "folderNames": {
     "src": "folder.src",
+    "app": "folder.app",
     "error": "folder.error",
     "main": "folder.main",
     "dto": "folder.dto",
@@ -894,7 +940,8 @@
     ".yarn": "folder.yarn",
     "webpack": "folder.webpack",
     ".webpack": "folder.webpack",
-    
+    ".next": "folder.nextjs",
+
     // Front
     "resource": "folder.resource",
     "resources": "folder.resource",
@@ -902,6 +949,9 @@
     "static": "folder.static",
     "public": "folder.public",
     "shared": "folder.shared",
+    "about": "folder.about",
+    "store": "folder.store",
+    "server": "folder.server",
     "hook": "folder.hook",
     "hooks": "folder.hook",
     "portal": "folder.portal",
@@ -972,19 +1022,20 @@
     ".gitattributes": "git",
 
     // DOkcer
-    ".dockerignore":"docker",
-    "dockerfile": "docker",
-    "compose.yaml": "docker",
-    "compose.yml": "docker",
-    "dockercompose.yaml": "docker",
-    "dockercompose.yml": "docker",
-    "docker-compose.yaml": "docker",
-    "docker-compose.yml": "docker",
+    ".dockerignore":"docker.1",
+    "dockerfile": "docker.1",
+    "compose.yaml": "docker.1",
+    "compose.yml": "docker.1",
+    "dockercompose.yaml": "docker.1",
+    "dockercompose.yml": "docker.1",
+    "docker-compose.yaml": "docker.1",
+    "docker-compose.yml": "docker.1",
 
     // general
     ".env": "env",
     ".env.example": "env",
     ".editorconfig": "editorconfig",
+    "settings": "config",
     "makefile": "makefile",
     "pom.xml": "pom",
     "gradlew": "gradle",
@@ -992,6 +1043,7 @@
     "config": "config",
     "config.json": "config.json",
     "settings.json": "config.json",
+    "gemfile": "gemfile",
 
     "main": "main",
     "main.py": "main.py",
@@ -1048,8 +1100,10 @@
     ".eslintrc.js": "eslint",
     ".eslintrc.cjs": "eslint",
     ".eslintrc.mjs": "eslint",
+    ".eslintrc.json": "eslint",
     "config.js": "config.js",
     "config.ts": "config.ts",
+    "jsconfig.json": "config.js",
     "tsconfig.json": "config.ts",
     "tsconfig.node.json": "config.ts",
     "tsconfig.spec.json": "config.ts",
@@ -1071,10 +1125,18 @@
     "app.ts": "index.ts",
     "main.jsx": "index.jsx",
     "app.jsx": "index.jsx",
+    "page.jsx": "index.jsx",
     "index.jsx": "index.jsx",
     "index.tsx": "index.tsx",
     "main.tsx": "index.tsx",
     "app.tsx": "index.tsx",
+    "layout.js": "layout.js",
+    "layout.jsx": "layout.js",
+    "layout.ts": "layout.ts",
+    "layout.tsx": "layout.ts",
+    "page.tsx": "index.tsx",
+    "next.config.js": "nextjs",
+    "next.config.ts": "nextjs",
 
     // Media
     "geom.glsl": "geom",
