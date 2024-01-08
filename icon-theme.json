@@ -1,4 +1,5 @@
 {
+  "hidesExplorerArrows": false,
   "iconDefinitions": {
     "_file": {
       "iconPath": "images/_.svg"
@@ -116,9 +117,16 @@
     "go.sum": {
       "iconPath": "images/go.sum.svg"
     },
+    // Android
+    "android": {
+      "iconPath": "images/android.svg"
+    },
     // Kotlin
     "kt": {
       "iconPath": "images/kt.svg"
+    },
+    "main.kt": {
+      "iconPath": "images/main.kt.svg"
     },
     // JAVA
     "java": {
@@ -126,6 +134,12 @@
     },
     "main.java": {
       "iconPath": "images/main.java.svg"
+    },
+    "handler.java": {
+      "iconPath": "images/handler.java.svg"
+    },
+    "security.java": {
+      "iconPath": "images/security.java.svg"
     },
     "class": {
       "iconPath": "images/class.svg"
@@ -268,6 +282,10 @@
     "main.rs": {
       "iconPath": "images/main.rs.svg"
     },
+    // ASM
+    "asm": {
+      "iconPath": "images/asm.svg"
+    },
     // C / C++
     "main": {
       "iconPath": "images/main.svg"
@@ -334,6 +352,9 @@
     },
     "geojson": {
       "iconPath": "images/geojson.svg"
+    },
+    "config.pug": {
+      "iconPath": "images/config.pug.svg"
     },
     "pug": {
       "iconPath": "images/pug.svg"
@@ -425,6 +446,9 @@
     },
     "geom": {
       "iconPath": "images/geom.svg"
+    },
+    "comp": {
+      "iconPath": "images/compute.svg"
     },
     // 3d
     "3d": {
@@ -630,6 +654,9 @@
     "folder.java": {
       "iconPath": "images/folder.java.svg"
     },
+    "folder.go": {
+      "iconPath": "images/folder.go.svg"
+    },
   },
   "file": "_file",
   "folder": "folder._",
@@ -671,6 +698,7 @@
     "pyw": "pyw",
     "ipynb": "ipynb",
     "pyc": "pyc",
+    "whl": "py",
     "so": "py.so",
     "npy": "npy",
     "pt": "pt",
@@ -684,11 +712,16 @@
     "gml": "gml",
     // Go
     "go": "go",
+    // android
+    "apk": "android",
+    "smali": "android",
+    "dex": "android",
     // Kotlin
     "kt": "kt",
     "kts": "kt",
     // JAVA
     "java": "java",
+    "jsp": "java",
     "class": "class",
     "jar": "jar",
     // Javascript
@@ -706,6 +739,9 @@
     "test.ts": "spec.ts",
     "d.ts": "d.ts",
     "mts": "ts",
+    "ng-template": "angular",
+    "guard.ts": "angular-guard",
+    "guard.js": "angular-guard",
     "component.ts": "comp.ts",
     "comp.ts": "comp.ts",
     "module.ts": "angular",
@@ -750,13 +786,38 @@
     "cs": "cs",
     // Rust
     "rs": "rs",
+    // asm
+    "asm": "asm",
+    "nasm": "asm",
+    "a51": "asm",
+    "inc": "asm",
+    "s": "asm",
+    "ms": "asm",
+    "agc": "asm",
+    "ags": "asm",
+    "aea": "asm",
+    "argus": "asm",
+    "mitigus": "asm",
+    "binsource": "asm",
     // C / C++
     "c": "c",
+    "i": "c",
+    "mi": "c",
     "h": "h",
+    "cc": "cpp",
     "cpp": "cpp",
+    "cxx": "cpp",
     "c++": "cpp",
+    "cp": "cpp",
+    "mii": "cpp",
+    "ii": "cpp",
+    "hh": "hpp",
     "hpp": "hpp",
+    "hxx": "hpp",
     "h++": "hpp",
+    "hp": "hpp",
+    "tcc": "hpp",
+    "inl": "hpp",
     "o": "o",
     "out": "o",
     "dll": "o",
@@ -764,12 +825,28 @@
     "pdf": "pdf",
     "doc": "doc",
     "docx": "doc",
-    "ppt": "ppt",
+    "rtf": "doc",
+    "odt": "doc",
     "pptx": "ppt",
+    "ppt": "ppt",
+    "pptm": "ppt",
+    "potx": "ppt",
+    "potm": "ppt",
+    "ppsx": "ppt",
+    "ppsm": "ppt",
+    "pps": "ppt",
+    "ppam": "ppt",
+    "ppa": "ppt",
+    "odp": "ppt",
     // DATA
     "copy": "copy",
-    "cp": "copy",
     "iso": "iso",
+    "vmdk": "iso",
+    "hdd": "iso",
+    "qcow": "iso",
+    "qcow2": "iso",
+    "qed": "iso",
+    "dmg": "iso",
     "xml": "xml",
     "csv": "sheets",
     "xlsx": "sheets",
@@ -804,15 +881,23 @@
     "css.map": "css.map",
     // Binary
     "exe": "main",
+    "msi": "exe",
     // text
     "md": "md",
     // media
     "mcpack": "minecraft",
     "ttf": "font",
     "otf": "font",
-    "woff": "font",
-    "woff2": "font",
-    "eot": "font",
+    "suit": "font",
+    "bmap": "font",
+    "fnt": "font",
+    "odttf": "font",
+    "ttc": "font",
+    "font": "font",
+    "fonts": "font",
+    "sui": "font",
+    "ntf": "font",
+    "mrf": "font",
     "mp4": "video",
     "vob": "video",
     "mpeg": "video",
@@ -822,6 +907,18 @@
     "m4v": "video",
     "webm": "video",
     "flv": "video",
+    "ogv": "video",
+    "gifv": "video",
+    "qt": "video",
+    "wmv": "video",
+    "yuv": "video",
+    "rm": "video",
+    "rmvb": "video",
+    "mpg": "video",
+    "mp2": "video",
+    "mpe": "video",
+    "mpv": "video",
+    "m2v": "video",
     "flp": "flp",
     "wav": "audio",
     "mp3": "audio",
@@ -850,6 +947,7 @@
     "vert": "vert",
     "vsh": "vert",
     "geom": "geom",
+    "comp": "comp",
     // 3d
     "stl": "3d",
     "3ds": "3d",
@@ -857,6 +955,17 @@
     "fbx": "3d",
     "dae": "3d",
     "obj": "3d",
+    "stp": "3d",
+    "ac": "3d",
+    "dxf": "3d",
+    "mesh": "3d",
+    "mqo": "3d",
+    "pmd": "3d",
+    "pmx": "3d",
+    "skp": "3d",
+    "vac": "3d",
+    "vdp": "3d",
+    "vox": "3d",
     //"ply": "3d",
     "mtl": "mtl",
     // Script
@@ -1014,7 +1123,8 @@
     "python": "folder.py",
     "py": "folder.py",
     "__pycache__": "folder.py",
-    "java": "folder.java"
+    "java": "folder.java",
+    "go": "folder.go",
   },
   "fileNames": {
     ".gitignore": "git",
@@ -1045,6 +1155,10 @@
     "settings.json": "config.json",
     "gemfile": "gemfile",
 
+    ".pug-lintrc": "config.pug",
+    ".pug-lintrc.js": "config.pug",
+    ".pug-lintrc.json": "config.pug",
+
     "main": "main",
     "main.py": "main.py",
     "app.py": "main.py",
@@ -1071,8 +1185,15 @@
 
     "main.rs": "main.rs",
 
+    // kotlin
+    "main.kt": "main.kt",
+
     // java
     "main.java": "main.java",
+    "ExceptionHandler.java": "handler.java",
+    "AppExceptionHandler.java": "handler.java",
+    "security.java": "security.java",
+    "securityconfig.java": "security.java",
 
     // GO
     "main.go": "main.go",
@@ -1151,5 +1272,7 @@
     "frag.hlsl": "frag",
     "fsh.glsl": "frag",
     "fsh.hlsl": "frag",
+    "comp.glsl": "comp",
+    "comp.hlsl": "comp",
   }
 }
