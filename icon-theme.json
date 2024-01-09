@@ -293,8 +293,14 @@
     "c": {
       "iconPath": "images/c.svg"
     },
+    "main.c": {
+      "iconPath": "images/main.c.svg"
+    },
     "cpp": {
       "iconPath": "images/cpp.svg"
+    },
+    "main.cpp": {
+      "iconPath": "images/main.cpp.svg"
     },
     "h": {
       "iconPath": "images/h.svg"
@@ -648,14 +654,26 @@
       "iconPath": "images/folder.handler.svg"
     },
     // LANGS
+    "folder.scripts": {
+      "iconPath": "images/folder.scripts.svg"
+    },
     "folder.py": {
       "iconPath": "images/folder.py.svg"
+    },
+    "folder.ruby": {
+      "iconPath": "images/folder.ruby.svg"
     },
     "folder.java": {
       "iconPath": "images/folder.java.svg"
     },
+    "folder.android": {
+      "iconPath": "images/folder.android.svg"
+    },
     "folder.go": {
       "iconPath": "images/folder.go.svg"
+    },
+    "folder.rust": {
+      "iconPath": "images/folder.rust.svg"
     },
   },
   "file": "_file",
@@ -979,6 +997,7 @@
     "src": "folder.src",
     "app": "folder.app",
     "error": "folder.error",
+    "exceptions": "folder.error",
     "main": "folder.main",
     "dto": "folder.dto",
     "payload": "folder.dto",
@@ -1120,11 +1139,15 @@
     "jwt": "folder.jwt",
 
     // LANGS
+    "scripts": "folder.scripts",
     "python": "folder.py",
     "py": "folder.py",
     "__pycache__": "folder.py",
+    "ruby": "folder.ruby",
     "java": "folder.java",
+    "android": "folder.android",
     "go": "folder.go",
+    "rust": "folder.rust"
   },
   "fileNames": {
     ".gitignore": "git",
@@ -1163,6 +1186,8 @@
     "main.py": "main.py",
     "app.py": "main.py",
     "__init__.py": "__init__.py",
+    "main.c": "main.c",
+    "main.cpp": "main.cpp",
     "requirements.txt": "requirements.txt",
     "readme.md": "readme.md",
     "help.md": "readme.md",
