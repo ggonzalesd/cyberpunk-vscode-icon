@@ -5,6 +5,9 @@
       "iconPath": "images/_.svg"
     },
     // General
+    "vscode": {
+      "iconPath": "images/vscode.svg"
+    },
     "editorconfig": {
       "iconPath": "images/editorconfig.svg"
     },
@@ -25,6 +28,9 @@
     },
     "eslint": {
       "iconPath": "images/eslint.svg"
+    },
+    "prettier": {
+      "iconPath": "images/prettier.svg"
     },
     "env": {
       "iconPath": "images/env.svg"
@@ -262,6 +268,10 @@
     },
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
+    },
+    // NEST
+    "nestjs": {
+      "iconPath": "images/nest.svg"
     },
     // NEXT
     "nextjs": {
@@ -680,6 +690,7 @@
   "folder": "folder._",
   "fileExtensions": {
     // General
+    "vsix": "vscodeignore",
     "lock": "lock",
     "ini": "config",
     "config": "config",
@@ -773,6 +784,7 @@
     "handler.js": "handler.js",
     "model.js": "model.js",
     "models.js": "model.js",
+    "entity.js": "model.js",
     "db.js": "db.js",
     "pool.js": "db.js",
     "database.js": "db.js",
@@ -788,6 +800,7 @@
     "handler.ts": "handler.ts",
     "model.ts": "model.ts",
     "models.ts": "model.ts",
+    "entity.ts": "model.ts",
     "db.ts": "db.ts",
     "pool.ts": "db.ts",
     "database.ts": "db.ts",
@@ -1167,6 +1180,7 @@
     // general
     ".env": "env",
     ".env.example": "env",
+    ".vscodeignore": "vscode",
     ".editorconfig": "editorconfig",
     "settings": "config",
     "makefile": "makefile",
@@ -1247,6 +1261,7 @@
     ".eslintrc.cjs": "eslint",
     ".eslintrc.mjs": "eslint",
     ".eslintrc.json": "eslint",
+    ".prettierrc": "prettier",
     "config.js": "config.js",
     "config.ts": "config.ts",
     "jsconfig.json": "config.js",
@@ -1254,6 +1269,7 @@
     "tsconfig.node.json": "config.ts",
     "tsconfig.spec.json": "config.ts",
     "tsconfig.app.json": "config.ts",
+    "tsconfig.build.json": "config.ts",
     "vite.config.js": "vite",
     "vite.config.ts": "vite",
 
@@ -1283,6 +1299,7 @@
     "page.tsx": "index.tsx",
     "next.config.js": "nextjs",
     "next.config.ts": "nextjs",
+    "nest-cli.json": "nestjs",
 
     // Media
     "geom.glsl": "geom",
