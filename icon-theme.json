@@ -8,6 +8,9 @@
     "vscode": {
       "iconPath": "images/vscode.svg"
     },
+    "vscodeignore": {
+      "iconPath": "images/vscodeignore.svg"
+    },
     "editorconfig": {
       "iconPath": "images/editorconfig.svg"
     },
@@ -154,6 +157,9 @@
       "iconPath": "images/jar.svg"
     },
     // node
+    "package.node": {
+      "iconPath": "images/package.node.svg"
+    },
     "node": {
       "iconPath": "images/node.svg"
     },
@@ -690,7 +696,7 @@
   "folder": "folder._",
   "fileExtensions": {
     // General
-    "vsix": "vscodeignore",
+    "vsix": "vscode",
     "lock": "lock",
     "ini": "config",
     "config": "config",
@@ -1180,7 +1186,7 @@
     // general
     ".env": "env",
     ".env.example": "env",
-    ".vscodeignore": "vscode",
+    ".vscodeignore": "vscodeignore",
     ".editorconfig": "editorconfig",
     "settings": "config",
     "makefile": "makefile",
@@ -1240,7 +1246,7 @@
     "go.mod": "go.sum",
 
     // NODE
-    "package.json": "node",
+    "package.json": "package.node",
     "package-lock.json": "node",
     ".yarnrc": "yarn",
     "yarnrc.lock": "yarn",
