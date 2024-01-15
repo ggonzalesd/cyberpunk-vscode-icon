@@ -44,6 +44,9 @@
     "makefile": {
       "iconPath": "images/makefile.svg"
     },
+    "cmake": {
+      "iconPath": "images/cmake.2.svg"
+    },
     "http": {
       "iconPath": "images/http.svg"
     },
@@ -280,6 +283,13 @@
     },
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
+    },
+    // Svelte
+    "svelte.config": {
+      "iconPath": "images/svelte.config.js.svg"
+    },
+    "svelte": {
+      "iconPath": "images/svelte.svg"
     },
     // NEST
     "nestjs": {
@@ -625,6 +635,9 @@
     "folder.webpack": {
       "iconPath": "images/folder.webpack.svg"
     },
+    "folder.svelte": {
+      "iconPath": "images/folder.svelte.svg"
+    },
     "folder.nextjs": {
       "iconPath": "images/folder.nextjs.svg"
     },
@@ -722,6 +735,7 @@
     "conf": "config",
     "gradle": "gradle",
     "env": "env",
+    "cmake": "cmake",
     "db": "db",
     "sql": "db",
     "sqlite": "db",
@@ -832,6 +846,8 @@
     "service.ts": "service.ts",
     "auth.ts": "auth.ts",
     "security.ts": "auth.ts",
+    // Svelte
+    "svelte": "svelte",
     // Arduino
     "ino": "ino",
     // CS
@@ -1103,6 +1119,7 @@
     ".yarn": "folder.yarn",
     "webpack": "folder.webpack",
     ".webpack": "folder.webpack",
+    ".svelte-kit": "folder.svelte",
     ".next": "folder.nextjs",
 
     // Front
@@ -1207,6 +1224,7 @@
     ".editorconfig": "editorconfig",
     "settings": "config",
     "makefile": "makefile",
+    "cmakelists.txt": "cmake",
     "pom.xml": "pom",
     "gradlew": "gradle",
     ".babelrc": "babel",
@@ -1231,6 +1249,8 @@
     "index.php": "index.php",
     "index.html": "index.html",
     "index.pug": "index.pug",
+    "app.html": "index.html",
+    "app.pug": "index.pug",
 
     "index.css": "index.css",
     "style.css": "index.css",
@@ -1279,6 +1299,7 @@
     "webpack.prod.ts": "webpack",
     "webpack.config.js": "webpack",
     "webpack.config.ts": "webpack",
+    ".npmrc": "node",
     ".nvmrc": "node",
     ".eslintrc": "eslint",
     ".eslintrc.js": "eslint",
@@ -1321,6 +1342,9 @@
     "layout.ts": "layout.ts",
     "layout.tsx": "layout.ts",
     "page.tsx": "index.tsx",
+
+    "svelte.config.js": "svelte.config",
+
     "next.config.js": "nextjs",
     "next.config.ts": "nextjs",
     "nest-cli.json": "nestjs",
