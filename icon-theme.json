@@ -473,6 +473,9 @@
       "iconPath": "images/compute.svg"
     },
     // 3d
+    "blender": {
+      "iconPath": "images/blender.2.svg"
+    },
     "3d": {
       "iconPath": "images/3d.svg"
     },
@@ -513,6 +516,9 @@
     },
     "folder.shared": {
       "iconPath": "images/folder.shared.svg"
+    },
+    "folder.web": {
+      "iconPath": "images/folder.web.svg"
     },
     "folder.public": {
       "iconPath": "images/folder.public.svg"
@@ -988,7 +994,7 @@
     // 3d
     "stl": "3d",
     "3ds": "3d",
-    "blend": "3d",
+    "blend": "blender",
     "fbx": "3d",
     "dae": "3d",
     "obj": "3d",
@@ -1096,6 +1102,7 @@
     "static": "folder.static",
     "public": "folder.public",
     "shared": "folder.shared",
+    "web": "folder.web",
     "about": "folder.about",
     "store": "folder.store",
     "server": "folder.server",
@@ -1322,5 +1329,20 @@
     "fsh.hlsl": "frag",
     "comp.glsl": "comp",
     "comp.hlsl": "comp",
+  },
+  "languageIds": {
+    "git": "git",
+    "git-commit": "git",
+    "git-rebase": "git",
+    "ignore": "git",
+    "bat": "script",
+    "c": "main.c",
+    "cpp": "main.cpp",
+    "csharp": "cs",
+    "python": "main.py",
+    "xml": "xml",
+    "xquery": "xml",
+    "xsl": "xml",
+    "makefile": "makefile",
   }
 }
