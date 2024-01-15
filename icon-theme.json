@@ -185,6 +185,9 @@
     "config.js": {
       "iconPath": "images/config.js.svg"
     },
+    "jsconfig.json": {
+      "iconPath": "images/jsconfig.json.svg"
+    },
     "index.js": {
       "iconPath": "images/index.js.svg"
     },
@@ -235,6 +238,9 @@
     },
     "config.ts": {
       "iconPath": "images/config.ts.svg"
+    },
+    "tsconfig.json": {
+      "iconPath": "images/tsconfig.json.svg"
     },
     "index.ts": {
       "iconPath": "images/index.ts.svg"
@@ -552,6 +558,9 @@
     },
     "folder.src": {
       "iconPath": "images/folder.src.svg"
+    },
+    "folder.api": {
+      "iconPath": "images/folder.api.svg"
     },
     "folder.app": {
       "iconPath": "images/folder.app.svg"
@@ -1020,6 +1029,7 @@
   },
   "folderNames": {
     "src": "folder.src",
+    "api": "folder.api",
     "app": "folder.app",
     "error": "folder.error",
     "exceptions": "folder.error",
@@ -1255,6 +1265,7 @@
     // NODE
     "package.json": "package.node",
     "package-lock.json": "node",
+    "yarn.lock": "yarn",
     ".yarnrc": "yarn",
     "yarnrc.lock": "yarn",
     "yarn-error.log": "yarn",
@@ -1277,12 +1288,12 @@
     ".prettierrc": "prettier",
     "config.js": "config.js",
     "config.ts": "config.ts",
-    "jsconfig.json": "config.js",
-    "tsconfig.json": "config.ts",
-    "tsconfig.node.json": "config.ts",
-    "tsconfig.spec.json": "config.ts",
-    "tsconfig.app.json": "config.ts",
-    "tsconfig.build.json": "config.ts",
+    "jsconfig.json": "jsconfig.json",
+    "tsconfig.json": "tsconfig.json",
+    "tsconfig.node.json": "tsconfig.json",
+    "tsconfig.spec.json": "tsconfig.json",
+    "tsconfig.app.json": "tsconfig.json",
+    "tsconfig.build.json": "tsconfig.json",
     "vite.config.js": "vite",
     "vite.config.ts": "vite",
 
