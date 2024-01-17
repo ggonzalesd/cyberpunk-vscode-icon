@@ -20,6 +20,9 @@
     "pom": {
       "iconPath": "images/pom.svg"
     },
+    "license": {
+      "iconPath": "images/license.svg"
+    },
     "babel": {
       "iconPath": "images/babel.svg"
     },
@@ -28,6 +31,9 @@
     },
     "config": {
       "iconPath": "images/config.svg"
+    },
+    "yaml": {
+      "iconPath": "images/yaml.svg"
     },
     "eslint": {
       "iconPath": "images/eslint.svg"
@@ -729,6 +735,8 @@
     "ini": "config",
     "config": "config",
     "toml": "config",
+    "yaml": "yaml",
+    "yml": "yaml",
     "cfg": "config",
     "properties": "config",
     "settings": "config",
@@ -954,6 +962,8 @@
     "md": "md",
     // media
     "mcpack": "minecraft",
+    "mca": "minecraft",
+    "mcmeta": "minecraft",
     "ttf": "font",
     "otf": "font",
     "suit": "font",
@@ -1095,6 +1105,7 @@
     ".docker": "folder.docker",
     "mvn": "folder.maven",
     ".mvn":"folder.maven",
+    "maven": "folder.maven",
     "gradle": "folder.gradle",
     ".gradle": "folder.gradle",
     "tmp": "folder.tmp",
@@ -1163,6 +1174,8 @@
     "comps": "folder.comp",
     "component": "folder.comp",
     "components": "folder.comp",
+    "plugin": "folder.comp",
+    "plugins": "folder.comp",
 
     // back
     "data": "folder.db",
@@ -1225,7 +1238,10 @@
     "settings": "config",
     "makefile": "makefile",
     "cmakelists.txt": "cmake",
+    "CMakeCache.txt": "cmake",
     "pom.xml": "pom",
+    "license": "license",
+    "license.txt": "license",
     "gradlew": "gradle",
     ".babelrc": "babel",
     "config": "config",
@@ -1244,6 +1260,7 @@
     "main.c": "main.c",
     "main.cpp": "main.cpp",
     "requirements.txt": "requirements.txt",
+    ".python-version": "requirements.txt",
     "readme.md": "readme.md",
     "help.md": "readme.md",
     "index.php": "index.php",
