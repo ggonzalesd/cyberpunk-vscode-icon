@@ -67,6 +67,9 @@
     "git": {
       "iconPath": "images/git.svg"
     },
+    "github": {
+      "iconPath": "images/github.svg"
+    },
     // r
     "r": {
       "iconPath": "images/r.svg"
@@ -511,6 +514,9 @@
     // Folder
     "folder._": {
       "iconPath": "images/folder._.svg"
+    },
+    "folder.github": {
+      "iconPath": "images/folder.github.svg"
     },
     "folder.error": {
       "iconPath": "images/folder.error.svg"
@@ -1054,6 +1060,8 @@
     "zsh": "script"
   },
   "folderNames": {
+    "github": "folder.github",
+    ".github": "folder.github",
     "src": "folder.src",
     "api": "folder.api",
     "app": "folder.app",
@@ -1084,6 +1092,7 @@
     "lib": "folder.o",
     "libs": "folder.o",
     "lib64": "folder.o",
+    "libraries": "folder.o",
     "test": "folder.test",
     "tests": "folder.test",
     "config": "folder.config",
@@ -1387,14 +1396,41 @@
     "git-commit": "git",
     "git-rebase": "git",
     "ignore": "git",
+    "dockerfile": "docker.1",
+    "dockercompose": "docker.1",
+    "typescript": "index.ts",
+    "typescriptreact": "tsx",
+    "javascript": "index.js",
+    "javascriptreact": "jsx",
+    "svelte": "svelte",
+    "java": "java",
+    "java-properties": "config",
+    "svg": "svg",
+    "glsl": "glsl",
+    "hlsl": "glsl",
+    "excel": "sheets",
+    "csv": "sheets",
+    "json": "json",
     "bat": "script",
+    "swift": "swift",
+    "sql": "db",
+    "go": "go",
     "c": "main.c",
     "cpp": "main.cpp",
     "csharp": "cs",
     "python": "main.py",
+    "http": "http",
+    "html": "index.html",
+    "php": "index.php",
+    "jade": "index.pug",
+    "css": "index.css",
+    "sass": "index.sass",
+    "less": "index.less",
+    "stylus": "index.styl",
     "xml": "xml",
     "xquery": "xml",
     "xsl": "xml",
     "makefile": "makefile",
+    "yaml": "yaml"
   }
 }
