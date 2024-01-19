@@ -316,6 +316,15 @@
     "cs": {
       "iconPath": "images/cs.svg"
     },
+    "main.cs": {
+      "iconPath": "images/main.cs.svg"
+    },
+    "csproj": {
+      "iconPath": "images/csproj.svg"
+    },
+    "dotnet": {
+      "iconPath": "images/dotnet.svg"
+    },
     // Rust
     "rs": {
       "iconPath": "images/rs.svg"
@@ -637,6 +646,9 @@
     "folder.shader": {
       "iconPath": "images/folder.glsl.svg"
     },
+    "folder.mono": {
+      "iconPath": "images/folder.mono.svg"
+    },
     // node
     "folder.node_modules": {
       "iconPath": "images/folder.node_modules.svg"
@@ -738,6 +750,7 @@
     // General
     "vsix": "vscode",
     "lock": "lock",
+    "editorconfig": "editorconfig",
     "ini": "config",
     "config": "config",
     "toml": "config",
@@ -751,6 +764,7 @@
     "env": "env",
     "cmake": "cmake",
     "db": "db",
+    "pdb": "db",
     "sql": "db",
     "sqlite": "db",
     "sqlite3": "db",
@@ -864,8 +878,10 @@
     "svelte": "svelte",
     // Arduino
     "ino": "ino",
-    // CS
+    // CS DOTNET
     "cs": "cs",
+    "sln": "dotnet",
+    "csproj": "csproj",
     // Rust
     "rs": "rs",
     // asm
@@ -1087,6 +1103,7 @@
     "volume": "folder.volume",
     "bin": "folder.bin",
     "include": "folder.include",
+    "obj": "folder.o",
     "object": "folder.o",
     "objects": "folder.o",
     "lib": "folder.o",
@@ -1101,6 +1118,10 @@
     "settings": "folder.config",
     "env": "folder.env",
     ".env": "folder.env",
+
+    // mono
+    ".mono": "folder.mono",
+    "mono": "folder.mono",
 
     // API
     "requests":"folder.req",
@@ -1266,6 +1287,7 @@
     "main.py": "main.py",
     "app.py": "main.py",
     "__init__.py": "__init__.py",
+    "program.cs": "main.cs",
     "main.c": "main.c",
     "main.cpp": "main.cpp",
     "requirements.txt": "requirements.txt",
@@ -1415,9 +1437,11 @@
     "swift": "swift",
     "sql": "db",
     "go": "go",
-    "c": "main.c",
-    "cpp": "main.cpp",
+    "rust": "rs",
+    "c": "c",
+    "cpp": "cpp",
     "csharp": "cs",
+    "ruby": "ruby",
     "python": "main.py",
     "http": "http",
     "html": "index.html",
