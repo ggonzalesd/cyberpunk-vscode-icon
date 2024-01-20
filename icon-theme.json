@@ -1113,6 +1113,7 @@
     "test": "folder.test",
     "tests": "folder.test",
     "config": "folder.config",
+    "properties": "folder.config",
     ".config": "folder.config",
     "configuration": "folder.config",
     "settings": "folder.config",
