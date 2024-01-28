@@ -70,9 +70,24 @@
     "github": {
       "iconPath": "images/github.svg"
     },
+    // swift
+    "swift": {
+      "iconPath": "images/swift.svg"
+    },
+    // lua
+    "lua": {
+      "iconPath": "images/lua.svg"
+    },
+    "main.lua": {
+      "iconPath": "images/main.lua.svg"
+    },
     // r
     "r": {
       "iconPath": "images/r.svg"
+    },
+    // julia
+    "jl": {
+      "iconPath": "images/jl.svg"
     },
     // Ruby
     "ruby": {
@@ -168,6 +183,10 @@
     "jar": {
       "iconPath": "images/jar.svg"
     },
+    // dart
+    "dart": {
+      "iconPath": "images/dart.svg"
+    },
     // node
     "package.node": {
       "iconPath": "images/package.node.svg"
@@ -190,6 +209,9 @@
     // Java script
     "js": {
       "iconPath": "images/js.svg"
+    },
+    "js.map": {
+      "iconPath": "images/js.map.svg"
     },
     "spec.js": {
       "iconPath": "images/spec.js.svg"
@@ -239,6 +261,9 @@
     "auth.js": {
       "iconPath": "images/auth.js.svg"
     },
+    "strategy.js": {
+      "iconPath": "images/strategy.js.svg"
+    },
     "ts": {
       "iconPath": "images/ts.svg"
     },
@@ -277,6 +302,9 @@
     },
     "auth.ts": {
       "iconPath": "images/auth.ts.svg"
+    },
+    "strategy.ts": {
+      "iconPath": "images/strategy.ts.svg"
     },
     "comp.ts": {
       "iconPath": "images/comp.ts.svg"
@@ -332,6 +360,10 @@
     "main.rs": {
       "iconPath": "images/main.rs.svg"
     },
+    // WAsm
+    "wasm": {
+      "iconPath": "images/wasm.svg"
+    },
     // ASM
     "asm": {
       "iconPath": "images/asm.svg"
@@ -360,6 +392,10 @@
     },
     "o": {
       "iconPath": "images/o_.svg"
+    },
+    // Haskell
+    "hs": {
+      "iconPath": "images/hs.svg"
     },
     // TEXT
     "md": {
@@ -408,6 +444,9 @@
     },
     "geojson": {
       "iconPath": "images/geojson.svg"
+    },
+    "graphql": {
+      "iconPath": "images/graphql.svg"
     },
     "config.pug": {
       "iconPath": "images/config.pug.svg"
@@ -517,6 +556,9 @@
       "iconPath": "images/mtl.svg"
     },
     // scripts
+    "vbs": {
+      "iconPath": "images/vbs.svg"
+    },
     "script": {
       "iconPath": "images/script.svg"
     },
@@ -536,6 +578,9 @@
     "folder.volume": {
       "iconPath": "images/folder.storage.svg"
     },
+    "folder.task": {
+      "iconPath": "images/folder.task.svg"
+    },
     "folder.debug": {
       "iconPath": "images/folder.debug.svg"
     },
@@ -553,6 +598,18 @@
     },
     "folder.shared": {
       "iconPath": "images/folder.shared.svg"
+    },
+    "folder.bsd": {
+      "iconPath": "images/folder.bsd.svg"
+    },
+    "folder.osx": {
+      "iconPath": "images/folder.osx.svg"
+    },
+    "folder.windows": {
+      "iconPath": "images/folder.windows.svg"
+    },
+    "folder.linux": {
+      "iconPath": "images/folder.linux.svg"
     },
     "folder.web": {
       "iconPath": "images/folder.web.svg"
@@ -572,11 +629,17 @@
     "folder.about": {
       "iconPath": "images/folder.about.svg"
     },
+    "folder.gui": {
+      "iconPath": "images/folder.gui.svg"
+    },
     "folder.store": {
       "iconPath": "images/folder.store.svg"
     },
     "folder.server": {
       "iconPath": "images/folder.server.svg"
+    },
+    "folder.client": {
+      "iconPath": "images/folder.client.svg"
     },
     "folder.filter": {
       "iconPath": "images/folder.filter.svg"
@@ -709,6 +772,9 @@
     "folder.db": {
       "iconPath": "images/folder.db.svg"
     },
+    "folder.migrations": {
+      "iconPath": "images/folder.migrations.svg"
+    },
     "folder.service": {
       "iconPath": "images/folder.service.svg"
     },
@@ -778,8 +844,12 @@
     "dockercompose.yml": "docker.1",
     "docker-compose.yaml": "docker.1",
     "docker-compose.yml": "docker.1",
+    // lua
+    "lua": "lua",
     // r
     "r": "r",
+    // julia
+    "jl": "jl",
     // RUBY
     "rb": "ruby",
     "rbs": "rubys",
@@ -816,8 +886,11 @@
     "jsp": "java",
     "class": "class",
     "jar": "jar",
+    // dart
+    "dart": "dart",
     // Javascript
     "js": "js",
+    "js.map": "js.map",
     "spec.js": "spec.js",
     "test.js": "spec.js",
     "mjs": "js",
@@ -858,6 +931,7 @@
     "service.js": "service.js",
     "auth.js": "auth.js",
     "security.js": "auth.js",
+    "strategy.js": "strategy.js",
     "schema.ts": "schema.ts",
     "schemas.ts": "schema.ts",
     "handler.ts": "handler.ts",
@@ -874,6 +948,7 @@
     "service.ts": "service.ts",
     "auth.ts": "auth.ts",
     "security.ts": "auth.ts",
+    "strategy.ts": "strategy.ts",
     // Svelte
     "svelte": "svelte",
     // Arduino
@@ -884,6 +959,9 @@
     "csproj": "csproj",
     // Rust
     "rs": "rs",
+    // wasm
+    "wasm": "wasm",
+    "wat": "wasm",
     // asm
     "asm": "asm",
     "nasm": "asm",
@@ -919,6 +997,8 @@
     "o": "o",
     "out": "o",
     "dll": "o",
+    // Haskell
+    "hs": "hs",
     // info
     "pdf": "pdf",
     "doc": "doc",
@@ -966,6 +1046,8 @@
     "pug": "pug",
     "http": "http",
     "php": "php",
+    "graphql": "graphql",
+    "gql": "graphql",
     "json": "json",
     "geojson": "geojson",
     "ui": "xml",
@@ -1068,16 +1150,27 @@
     "vox": "3d",
     //"ply": "3d",
     "mtl": "mtl",
-    // Script
+    // vbs
+    "vbs": "vbs",
+    // Scrip
+    "fish": "script",
     "bash": "script",
     "bat": "script",
     "cmd": "script",
     "sh": "script",
-    "zsh": "script"
+    "zsh": "script",
+    "ps1": "script"
   },
   "folderNames": {
     "github": "folder.github",
     ".github": "folder.github",
+    "bsd": "folder.bsd",
+    "freebsd": "folder.bsd",
+    "osx": "folder.osx",
+    "macos": "folder.osx",
+    "windows": "folder.windows",
+    "linux": "folder.linux",
+    "kernel": "folder.linux",
     "src": "folder.src",
     "api": "folder.api",
     "app": "folder.app",
@@ -1101,6 +1194,7 @@
     "out": "folder.dist",
     "release": "folder.dist",
     "volume": "folder.volume",
+    "storage": "folder.volume",
     "bin": "folder.bin",
     "include": "folder.include",
     "obj": "folder.o",
@@ -1171,10 +1265,13 @@
     "static": "folder.static",
     "public": "folder.public",
     "shared": "folder.shared",
+    "gui": "folder.gui",
     "web": "folder.web",
+    "network": "folder.web",
     "about": "folder.about",
     "store": "folder.store",
     "server": "folder.server",
+    "client": "folder.client",
     "hook": "folder.hook",
     "hooks": "folder.hook",
     "portal": "folder.portal",
@@ -1218,6 +1315,8 @@
     "repository": "folder.db",
     "repositories": "folder.db",
     "sql": "folder.db",
+    "migrations": "folder.migrations",
+    "migration": "folder.migrations",
     "router": "folder.router",
     "routers": "folder.router",
     "route": "folder.router",
@@ -1283,6 +1382,8 @@
     ".pug-lintrc": "config.pug",
     ".pug-lintrc.js": "config.pug",
     ".pug-lintrc.json": "config.pug",
+
+    "main.lua": "main.lua",
 
     "main": "main",
     "main.py": "main.py",

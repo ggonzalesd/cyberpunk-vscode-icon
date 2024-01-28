@@ -25,7 +25,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.68158229"
-     inkscape:cx="42.548054"
+     inkscape:cx="41.814467"
      inkscape:cy="302.97149"
      inkscape:window-width="1362"
      inkscape:window-height="744"
@@ -47,6 +47,18 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#8341ff;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#e02eff;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
     <linearGradient
        id="swatch61"
        inkscape:swatch="solid">
@@ -70,17 +82,26 @@
        inkscape:vp_z="480.74134 : 298.68846 : 1"
        inkscape:persp3d-origin="250 : 166.66667 : 1"
        id="perspective17" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="60.29591"
+       y1="81.420273"
+       x2="526.2392"
+       y2="351.96179"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       id="rect53-0"
-       style="fill:#7599a9;fill-opacity:0.3137255;fill-rule:nonzero;stroke:#7599a9;stroke-width:22.0622;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.25021772"
-       d="m 462.68749,104.21979 c 0,-1.64895 -0.59137,-3.17324 -1.54688,-4.517583 v -48.26953 c 0,-5.97292 -5.36366,-10.78125 -12.02538,-10.78125 H 307.18359 c -6.66173,0 -12.02344,4.80833 -12.02344,10.78125 v 43.39063 H 51.087889 c -6.7206,0 -12.13086,4.19106 -12.13086,9.396483 v 341.68359 c 0,5.20542 5.41026,9.39453 12.13086,9.39453 H 450.55663 c 6.7206,0 12.13086,-4.18911 12.13086,-9.39453 z" />
+       id="path6"
+       style="opacity:0.13427985;color:#000000;fill:#c234ff;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke;fill-opacity:1"
+       d="M 307.18359 29.621094 C 295.21385 29.621094 284.12891 38.859174 284.12891 51.433594 L 284.12891 83.792969 L 51.087891 83.792969 C 45.434552 83.792969 40.095402 85.480588 35.746094 88.849609 C 31.396785 92.218632 27.925781 97.796281 27.925781 104.2207 L 27.925781 445.9043 C 27.925781 452.32872 31.398352 457.90508 35.748047 461.27344 C 40.097742 464.64178 45.435619 466.32813 51.087891 466.32812 L 450.55664 466.32812 C 456.20891 466.32813 461.5468 464.64178 465.89648 461.27344 C 470.24618 457.90508 473.71875 452.32872 473.71875 445.9043 L 473.71875 104.2207 C 473.71875 101.65541 473.05759 99.35709 472.17188 97.244141 L 472.17188 51.433594 C 472.17188 38.856774 461.08499 29.621094 449.11523 29.621094 L 307.18359 29.621094 z " />
     <path
-       style="fill:none;stroke:#7599a9;stroke-width:50;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-opacity:1"
+       style="fill:none;stroke:#cb32ff;stroke-width:50;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-opacity:1"
        d="M 43.979119,450.13181 V 98.591456"
        id="path1" />
   </g>
@@ -88,25 +109,10 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2">
-    <rect
-       style="opacity:1;fill:#f3f3f3;fill-opacity:1;stroke:#7599a9;stroke-width:23.637;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="rect9"
-       width="329.33969"
-       height="109.7799"
-       x="140.94263"
-       y="195.47955"
-       ry="25.251179" />
-    <ellipse
-       style="opacity:1;fill:#fffa49;fill-opacity:0.989938;stroke:#7599a9;stroke-width:20.1094;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path9"
-       cx="207.03989"
-       cy="250.9958"
-       rx="12.65938"
-       ry="12.53469" />
     <path
-       style="opacity:1;fill:#fffa49;fill-opacity:0.989938;stroke:#7599a9;stroke-width:25.437;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="M 262.33566,251.88668 H 422.39838"
-       id="path10" />
+       id="path4"
+       style="color:#000000;fill:url(#linearGradient6);stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none"
+       d="M 166.19336 183.66016 C 145.86125 183.66016 129.125 200.39835 129.125 220.73047 L 129.125 280.00781 C 129.125 300.33993 145.86125 317.07812 166.19336 317.07812 L 445.03125 317.07812 C 465.36336 317.07812 482.10156 300.33993 482.10156 280.00781 L 482.10156 220.73047 C 482.10156 200.39835 465.36336 183.66016 445.03125 183.66016 L 166.19336 183.66016 z M 207.03906 228.40625 C 219.41104 228.40625 229.75391 238.58543 229.75391 250.99609 C 229.75391 263.40679 219.41104 273.58594 207.03906 273.58594 C 194.66708 273.58594 184.32617 263.40679 184.32617 250.99609 C 184.32617 238.58543 194.66708 228.40625 207.03906 228.40625 z M 262.33594 239.16797 L 422.39844 239.16797 A 12.7185 12.7185 0 0 1 435.11719 251.88672 A 12.7185 12.7185 0 0 1 422.39844 264.60547 L 262.33594 264.60547 A 12.7185 12.7185 0 0 1 249.61719 251.88672 A 12.7185 12.7185 0 0 1 262.33594 239.16797 z " />
   </g>
   <use
      x="0"

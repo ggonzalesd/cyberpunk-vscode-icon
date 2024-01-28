@@ -25,7 +25,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.68158229"
-     inkscape:cx="137.18079"
+     inkscape:cx="135.71362"
      inkscape:cy="256.02191"
      inkscape:window-width="1362"
      inkscape:window-height="744"
@@ -212,9 +212,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><path
-       id="rect53-0"
-       style="fill:#ff4733;fill-opacity:0.3137255;fill-rule:nonzero;stroke:#ff4733;stroke-width:22.0622;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.24405545"
-       d="m 462.68749,104.21979 c 0,-1.64895 -0.59137,-3.17324 -1.54688,-4.517583 v -48.26953 c 0,-5.97292 -5.36366,-10.78125 -12.02538,-10.78125 H 307.18359 c -6.66173,0 -12.02344,4.80833 -12.02344,10.78125 v 43.39063 H 51.087889 c -6.7206,0 -12.13086,4.19106 -12.13086,9.396483 v 341.68359 c 0,5.20542 5.41026,9.39453 12.13086,9.39453 H 450.55663 c 6.7206,0 12.13086,-4.18911 12.13086,-9.39453 z" /><path
+       id="path2"
+       style="opacity:0.21028684;color:#000000;fill:#ff301a;fill-opacity:1;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
+       d="M 307.18359 29.621094 C 295.21384 29.621094 284.12891 38.859174 284.12891 51.433594 L 284.12891 83.792969 L 51.087891 83.792969 C 45.43455 83.792969 40.095399 85.48059 35.746094 88.849609 C 31.396788 92.218629 27.925781 97.796275 27.925781 104.2207 L 27.925781 445.9043 C 27.925781 452.32873 31.398355 457.90704 35.748047 461.27539 C 40.097739 464.64375 45.435614 466.33008 51.087891 466.33008 L 450.55664 466.33008 C 456.20891 466.33008 461.5468 464.64374 465.89648 461.27539 C 470.24618 457.90704 473.71875 452.32873 473.71875 445.9043 L 473.71875 104.2207 C 473.71875 101.65528 473.05767 99.357167 472.17188 97.244141 L 472.17188 51.433594 C 472.17188 38.856761 461.08499 29.621094 449.11523 29.621094 L 307.18359 29.621094 z " /><path
        style="fill:none;stroke:#ff4733;stroke-width:50;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-opacity:1"
        d="M 43.979119,450.13181 V 98.591456"
        id="path1" /><g
