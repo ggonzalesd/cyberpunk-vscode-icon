@@ -24,7 +24,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.96390292"
-     inkscape:cx="287.37334"
+     inkscape:cx="287.89206"
      inkscape:cy="271.29288"
      inkscape:window-width="1362"
      inkscape:window-height="744"
@@ -72,7 +72,8 @@
        id="perspective17-7" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><path
+     id="layer1"
+     style="opacity:0.52598094"><path
        sodipodi:type="star"
        style="fill:none;fill-opacity:0.316096;stroke:#4dc433;stroke-width:34.878;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="path2"

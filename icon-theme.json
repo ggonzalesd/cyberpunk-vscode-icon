@@ -23,6 +23,9 @@
     "license": {
       "iconPath": "images/license.svg"
     },
+    "heroku": {
+      "iconPath": "images/heroku.svg"
+    },
     "babel": {
       "iconPath": "images/babel.svg"
     },
@@ -187,6 +190,10 @@
     "dart": {
       "iconPath": "images/dart.svg"
     },
+    // deno
+    "deno": {
+      "iconPath": "images/deno.svg"
+    },
     // node
     "package.node": {
       "iconPath": "images/package.node.svg"
@@ -196,6 +203,9 @@
     },
     "yarn": {
       "iconPath": "images/yarn.svg"
+    },
+    "sequelize": {
+      "iconPath": "images/sequelize.svg"
     },
     "webpack": {
       "iconPath": "images/webpack.svg"
@@ -252,6 +262,9 @@
     "db.js": {
       "iconPath": "images/db.js.svg"
     },
+    "controller.js": {
+      "iconPath": "images/controller.js.svg"
+    },
     "route.js": {
       "iconPath": "images/route.js.svg"
     },
@@ -293,6 +306,9 @@
     },
     "db.ts": {
       "iconPath": "images/db.ts.svg"
+    },
+    "controller.ts": {
+      "iconPath": "images/controller.ts.svg"
     },
     "route.ts": {
       "iconPath": "images/route.ts.svg"
@@ -781,6 +797,9 @@
     "folder.schema": {
       "iconPath": "images/folder.schema.svg"
     },
+    "folder.controller": {
+      "iconPath": "images/folder.controller.svg"
+    },
     "folder.router": {
       "iconPath": "images/folder.router.svg"
     },
@@ -905,8 +924,6 @@
     "d.ts": "d.ts",
     "mts": "ts",
     "ng-template": "angular",
-    "guard.ts": "angular-guard",
-    "guard.js": "angular-guard",
     "component.ts": "comp.ts",
     "comp.ts": "comp.ts",
     "module.ts": "angular",
@@ -927,8 +944,9 @@
     "route.js": "route.js",
     "router.js": "route.js",
     "routes.js": "route.js",
-    "controller.js": "route.js",
+    "controller.js": "controller.js",
     "service.js": "service.js",
+    "guard.js": "auth.js",
     "auth.js": "auth.js",
     "security.js": "auth.js",
     "strategy.js": "strategy.js",
@@ -944,8 +962,9 @@
     "route.ts": "route.ts",
     "router.ts": "route.ts",
     "routes.ts": "route.ts",
-    "controller.ts": "route.ts",
+    "controller.ts": "controller.ts",
     "service.ts": "service.ts",
+    "guard.ts": "auth.ts",
     "auth.ts": "auth.ts",
     "security.ts": "auth.ts",
     "strategy.ts": "strategy.ts",
@@ -1285,6 +1304,8 @@
     "tool": "folder.tool",
     "tools": "folder.tool",
     "templates": "folder.templates",
+    "view": "folder.html",
+    "views": "folder.html",
     "page": "folder.html",
     "pages": "folder.html",
     "html": "folder.html",
@@ -1321,8 +1342,8 @@
     "routers": "folder.router",
     "route": "folder.router",
     "routes": "folder.router",
-    "controller": "folder.router",
-    "controllers": "folder.router",
+    "controller": "folder.controller",
+    "controllers": "folder.controller",
     "handler": "folder.handler",
     "handlers": "folder.handler",
     "middlewares": "folder.handler",
@@ -1349,6 +1370,9 @@
     ".gitignore": "git",
     ".gitkeep": "git",
     ".gitattributes": "git",
+
+    // Heroku
+    "procfile": "heroku",
 
     // DOkcer
     ".dockerignore":"docker.1",
@@ -1432,6 +1456,11 @@
     "go.sum": "go.sum",
     "go.mod": "go.sum",
 
+    // deno
+    "deno.json": "deno",
+    "deno.jsonc": "deno",
+    "deno.lock": "deno",
+
     // NODE
     "package.json": "package.node",
     "package-lock.json": "node",
@@ -1439,6 +1468,7 @@
     ".yarnrc": "yarn",
     "yarnrc.lock": "yarn",
     "yarn-error.log": "yarn",
+    ".sequelizerc": "sequelize",
     "webpack.js": "webpack",
     "webpack.ts": "webpack",
     "webpack.common.js": "webpack",
