@@ -369,6 +369,13 @@
     "dotnet": {
       "iconPath": "images/dotnet.svg"
     },
+    // zig
+    "zig": {
+      "iconPath": "images/zig.svg"
+    },
+    "main.zig": {
+      "iconPath": "images/main.zig.svg"
+    },
     // Rust
     "rs": {
       "iconPath": "images/rs.svg"
@@ -976,6 +983,8 @@
     "cs": "cs",
     "sln": "dotnet",
     "csproj": "csproj",
+    // Zig
+    "zig": "zig",
     // Rust
     "rs": "rs",
     // wasm
@@ -1437,8 +1446,10 @@
     "index.less": "index.less",
     "style.less": "index.less",
 
-    // rust
+    // zig
+    "main.zig": "main.zig",
 
+    // rust
     "main.rs": "main.rs",
 
     // kotlin
