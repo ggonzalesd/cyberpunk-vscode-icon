@@ -25,12 +25,12 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.96390292"
-     inkscape:cx="323.16532"
+     inkscape:cx="322.12788"
      inkscape:cy="230.83237"
-     inkscape:window-width="1362"
-     inkscape:window-height="744"
-     inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-width="1352"
+     inkscape:window-height="734"
+     inkscape:window-x="4"
+     inkscape:window-y="24"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showguides="true"><sodipodi:guide
@@ -48,7 +48,7 @@
          style="stop-color:#f36a6a;stop-opacity:1;"
          offset="0.10957017"
          id="stop18" /><stop
-         style="stop-color:#f25858;stop-opacity:0;"
+         style="stop-color:#8bfd9a;stop-opacity:0;"
          offset="1"
          id="stop19" /></linearGradient><linearGradient
        id="linearGradient17"
@@ -64,7 +64,7 @@
          style="stop-color:#49f161;stop-opacity:1;"
          offset="0.10686415"
          id="stop14" /><stop
-         style="stop-color:#f25858;stop-opacity:0;"
+         style="stop-color:#f058f2;stop-opacity:0;"
          offset="1"
          id="stop15" /></linearGradient><linearGradient
        id="linearGradient12"
@@ -72,7 +72,7 @@
          style="stop-color:#49bff1;stop-opacity:1;"
          offset="0.08399991"
          id="stop11" /><stop
-         style="stop-color:#f25858;stop-opacity:0;"
+         style="stop-color:#f2f2f2;stop-opacity:0;"
          offset="1"
          id="stop12" /></linearGradient><linearGradient
        id="linearGradient8"
@@ -80,8 +80,8 @@
          style="stop-color:#f2db63;stop-opacity:1;"
          offset="0.1182611"
          id="stop9" /><stop
-         style="stop-color:#f25858;stop-opacity:0;"
-         offset="1"
+         style="stop-color:#5884f2;stop-opacity:0;"
+         offset="0.87570685"
          id="stop10" /></linearGradient><linearGradient
        id="swatch13"
        inkscape:swatch="solid"><stop
@@ -205,7 +205,7 @@
        cy="157.78583"
        rx="161.00316"
        ry="158.72382" /><circle
-       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:30.75945479;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:0.4658902;paint-order:markers fill stroke"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:30.75945479;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="path41"
        cx="97.01593"
        cy="140.14224"

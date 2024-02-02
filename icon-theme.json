@@ -29,8 +29,20 @@
     "babel": {
       "iconPath": "images/babel.svg"
     },
+    "debug": {
+      "iconPath": "images/debug.svg"
+    },
     "lock": {
       "iconPath": "images/lock.svg"
+    },
+    "asset": {
+      "iconPath": "images/asset.svg"
+    },
+    "resource": {
+      "iconPath": "images/resource.svg"
+    },
+    "info": {
+      "iconPath": "images/info.svg"
     },
     "config": {
       "iconPath": "images/config.svg"
@@ -129,6 +141,12 @@
     },
     "__init__.py": {
       "iconPath": "images/__init__.py.svg"
+    },
+    "urls.py": {
+      "iconPath": "images/urls.py.svg"
+    },
+    "settings.py": {
+      "iconPath": "images/settings.py.svg"
     },
     "requirements.txt": {
       "iconPath": "images/requirements.txt.svg"
@@ -453,6 +471,9 @@
       "iconPath": "images/bin.svg"
     },
     // Web
+    "web": {
+      "iconPath": "images/web.svg"
+    },
     "config.json": {
       "iconPath": "images/config.json.svg"
     },
@@ -603,6 +624,9 @@
     },
     "folder.task": {
       "iconPath": "images/folder.task.svg"
+    },
+    "folder.cache": {
+      "iconPath": "images/folder.cache.svg"
     },
     "folder.debug": {
       "iconPath": "images/folder.debug.svg"
@@ -841,7 +865,12 @@
   "fileExtensions": {
     // General
     "vsix": "vscode",
+    "debug": "debug",
     "lock": "lock",
+    "asset": "asset",
+    "assets": "asset",
+    "resource": "resource",
+    "info": "info",
     "editorconfig": "editorconfig",
     "ini": "config",
     "config": "config",
@@ -942,6 +971,7 @@
     "schema.js": "schema.js",
     "schemas.js": "schema.js",
     "handler.js": "handler.js",
+    "interceptor.js": "handler.js",
     "model.js": "model.js",
     "models.js": "model.js",
     "entity.js": "model.js",
@@ -960,6 +990,7 @@
     "schema.ts": "schema.ts",
     "schemas.ts": "schema.ts",
     "handler.ts": "handler.ts",
+    "interceptor.ts": "handler.ts",
     "model.ts": "model.ts",
     "models.ts": "model.ts",
     "entity.ts": "model.ts",
@@ -1071,6 +1102,8 @@
     "dat": "bin",
     "data": "bin",
     // Web
+    "web": "web",
+    "url": "web",
     "pug": "pug",
     "http": "http",
     "php": "php",
@@ -1204,7 +1237,7 @@
     "app": "folder.app",
     "error": "folder.error",
     "exceptions": "folder.error",
-    "main": "folder.main",
+    "main": "folder.app",
     "dto": "folder.dto",
     "payload": "folder.dto",
     "dao": "folder.dto",
@@ -1215,6 +1248,8 @@
     "models": "folder.model",
     "filter": "folder.filter",
     "filters": "folder.filter",
+    "tasks": "folder.task",
+    "cache": "folder.cache",
     "debug": "folder.debug",
     "target": "folder.target",
     "dist": "folder.dist",
@@ -1421,7 +1456,10 @@
     "main": "main",
     "main.py": "main.py",
     "app.py": "main.py",
+    "manage.py": "main.py",
     "__init__.py": "__init__.py",
+    "urls.py": "urls.py",
+    "settings.py": "settings.py",
     "program.cs": "main.cs",
     "main.c": "main.c",
     "main.cpp": "main.cpp",
