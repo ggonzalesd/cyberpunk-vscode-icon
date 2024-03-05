@@ -29,8 +29,14 @@
     "babel": {
       "iconPath": "images/babel.svg"
     },
+    "cache": {
+      "iconPath": "images/cache.svg"
+    },
     "debug": {
       "iconPath": "images/debug.svg"
+    },
+    "dist": {
+      "iconPath": "images/dist.svg"
     },
     "lock": {
       "iconPath": "images/lock.svg"
@@ -43,6 +49,12 @@
     },
     "info": {
       "iconPath": "images/info.svg"
+    },
+    "bib": {
+      "iconPath": "images/bib.svg"
+    },
+    "bak": {
+      "iconPath": "images/bak.svg"
     },
     "config": {
       "iconPath": "images/config.svg"
@@ -411,7 +423,19 @@
     },
     // C / C++
     "main": {
-      "iconPath": "images/main.svg"
+      "iconPath": "images/main.2.svg"
+    },
+    "exe": {
+      "iconPath": "images/exe.svg"
+    },
+    "msi": {
+      "iconPath": "images/msi.svg"
+    },
+    "m": {
+      "iconPath": "images/m.svg"
+    },
+    "mm": {
+      "iconPath": "images/mm.svg"
     },
     "c": {
       "iconPath": "images/c.svg"
@@ -433,6 +457,13 @@
     },
     "o": {
       "iconPath": "images/o_.svg"
+    },
+    // Godot
+    "godot": {
+      "iconPath": "images/godot.svg"
+    },
+    "godot-assets": {
+      "iconPath": "images/godot-assets.svg"
     },
     // Haskell
     "hs": {
@@ -470,6 +501,9 @@
     "bin": {
       "iconPath": "images/bin.svg"
     },
+    "lnk": {
+      "iconPath": "images/lnk.svg"
+    },
     // Web
     "web": {
       "iconPath": "images/web.svg"
@@ -482,6 +516,9 @@
     },
     "index.php": {
       "iconPath": "images/index.php.svg"
+    },
+    "dev.json": {
+      "iconPath": "images/dev.json.svg"
     },
     "json": {
       "iconPath": "images/json.svg"
@@ -697,6 +734,9 @@
     "folder.model": {
       "iconPath": "images/folder.model.svg"
     },
+    "folder.home": {
+      "iconPath": "images/folder.home.svg"
+    },
     "folder.src": {
       "iconPath": "images/folder.src.svg"
     },
@@ -743,9 +783,18 @@
     "folder.config": {
       "iconPath": "images/folder.config.svg"
     },
+    "folder.logs": {
+      "iconPath": "images/folder.log.svg"
+    },
     // Media
     "folder.img": {
       "iconPath": "images/folder.img.svg"
+    },
+    "folder.video": {
+      "iconPath": "images/folder.video.svg"
+    },
+    "folder.audio": {
+      "iconPath": "images/folder.audio.svg"
     },
     "folder.font": {
       "iconPath": "images/folder.font.svg"
@@ -866,11 +915,16 @@
     // General
     "vsix": "vscode",
     "debug": "debug",
+    "release": "dist",
+    "cache": "cache",
     "lock": "lock",
     "asset": "asset",
     "assets": "asset",
     "resource": "resource",
     "info": "info",
+    "bib": "bib",
+    "ris": "bib",
+    "bak": "bak",
     "editorconfig": "editorconfig",
     "ini": "config",
     "config": "config",
@@ -1034,6 +1088,9 @@
     "argus": "asm",
     "mitigus": "asm",
     "binsource": "asm",
+    // objective c
+    "m": "m",
+    "mm": "mm",
     // C / C++
     "c": "c",
     "i": "c",
@@ -1056,6 +1113,16 @@
     "o": "o",
     "out": "o",
     "dll": "o",
+    // Godot
+    "gd": "godot",
+    "godot": "godot-assets",
+    "tres": "godot-assets",
+    "tscn": "godot-assets",
+    "gdns": "godot-assets",
+    "gdnlib": "godot-assets",
+    "gdshader": "godot-assets",
+    "gdshaderinc": "godot-assets",
+    "gdextension": "godot-assets",
     // Haskell
     "hs": "hs",
     // info
@@ -1101,14 +1168,18 @@
     "bin": "bin",
     "dat": "bin",
     "data": "bin",
-    // Web
     "web": "web",
+    "lnk": "lnk",
+    // Web
     "url": "web",
     "pug": "pug",
     "http": "http",
     "php": "php",
     "graphql": "graphql",
     "gql": "graphql",
+    "dev.json": "dev.json",
+    "develop.json": "dev.json",
+    "development.json": "dev.json",
     "json": "json",
     "geojson": "geojson",
     "ui": "xml",
@@ -1121,8 +1192,8 @@
     "styl": "styl",
     "css.map": "css.map",
     // Binary
-    "exe": "main",
-    "msi": "exe",
+    "exe": "exe",
+    "msi": "msi",
     // text
     "md": "md",
     // media
@@ -1162,6 +1233,7 @@
     "mpe": "video",
     "mpv": "video",
     "m2v": "video",
+    "mpq": "video",
     "flp": "flp",
     "wav": "audio",
     "mp3": "audio",
@@ -1175,8 +1247,52 @@
     "jpeg": "img",
     "webp": "img",
     "hdr": "img",
-    "exr": "img",
+    "tif": "img",
+    "tiff": "img",
+    "psd": "img",
+    "psb": "img",
+    "ami": "img",
+    "apx": "img",
+    "avif": "img",
     "bmp": "img",
+    "bpg": "img",
+    "brk": "img",
+    "cur": "img",
+    "dds": "img",
+    "dng": "img",
+    "exr": "img",
+    "fpx": "img",
+    "gbr": "img",
+    "img": "img",
+    "jbig2": "img",
+    "jb2": "img",
+    "jng": "img",
+    "jxr": "img",
+    "pgf": "img",
+    "pic": "img",
+    "raw": "img",
+    "eps": "img",
+    "afphoto": "img",
+    "ase": "img",
+    "aseprite": "img",
+    "clip": "img",
+    "cpt": "img",
+    "heif": "img",
+    "heic": "img",
+    "kra": "img",
+    "mdp": "img",
+    "ora": "img",
+    "pdn": "img",
+    "reb": "img",
+    "sai": "img",
+    "tga": "img",
+    "xcf": "img",
+    "jfif": "img",
+    "ppm": "img",
+    "pbm": "img",
+    "pgm": "img",
+    "pnm": "img",
+    "icns": "img",
     "gif": "gif",
     "svg": "svg",
     "ico": "ico",
@@ -1220,7 +1336,7 @@
     "cmd": "script",
     "sh": "script",
     "zsh": "script",
-    "ps1": "script"
+    "ps1": "script",
   },
   "folderNames": {
     "github": "folder.github",
@@ -1229,13 +1345,18 @@
     "freebsd": "folder.bsd",
     "osx": "folder.osx",
     "macos": "folder.osx",
+    "mac": "folder.osx",
     "windows": "folder.windows",
     "linux": "folder.linux",
     "kernel": "folder.linux",
+    "home": "folder.home",
     "src": "folder.src",
+    "code": "folder.src",
     "api": "folder.api",
     "app": "folder.app",
     "error": "folder.error",
+    "errors": "folder.error",
+    "exception": "folder.error",
     "exceptions": "folder.error",
     "main": "folder.app",
     "dto": "folder.dto",
@@ -1276,6 +1397,10 @@
     "settings": "folder.config",
     "env": "folder.env",
     ".env": "folder.env",
+    "environment": "folder.env",
+    "environments": "folder.env",
+    "logs": "folder.logs",
+    "log": "folder.logs",
 
     // mono
     ".mono": "folder.mono",
@@ -1305,6 +1430,16 @@
     "icons": "folder.ico",
     "images": "folder.img",
     "image": "folder.img",
+    "videos": "folder.video",
+    "video": "folder.video",
+    "movie": "folder.video",
+    "movies": "folder.video",
+    "audio": "folder.audio",
+    "audios": "folder.audio",
+    "sound": "folder.audio",
+    "sounds": "folder.audio",
+    "music": "folder.audio",
+    "musics": "folder.audio",
     "font": "folder.font",
     "fonts": "folder.font",
     "shader": "folder.shader",
@@ -1390,6 +1525,8 @@
     "controllers": "folder.controller",
     "handler": "folder.handler",
     "handlers": "folder.handler",
+    "interceptor": "folder.handler",
+    "interceptors": "folder.handler",
     "middlewares": "folder.handler",
     "middleware": "folder.handler",
     "service": "folder.service",
@@ -1445,6 +1582,7 @@
     "config": "config",
     "config.json": "config.json",
     "settings.json": "config.json",
+    "manifest.json": "config.json",
     "gemfile": "gemfile",
 
     ".pug-lintrc": "config.pug",
@@ -1454,6 +1592,7 @@
     "main.lua": "main.lua",
 
     "main": "main",
+    "a.out": "main",
     "main.py": "main.py",
     "app.py": "main.py",
     "manage.py": "main.py",
@@ -1593,6 +1732,14 @@
     "fsh.hlsl": "frag",
     "comp.glsl": "comp",
     "comp.hlsl": "comp",
+
+    // scripts
+    ".bash_profile": "script",
+    ".bashrc": "script",
+    ".profile": "script",
+    ".xprofile": "script",
+    ".zprofile": "script",
+    ".zshrc": "script",
   },
   "languageIds": {
     "git": "git",
