@@ -1,6 +1,6 @@
 {
-  "name": "cyberpunk-glass-icons",
-  "displayName": "Cyberpunk Glass Icons",
+  "name": "cyberpunk-vscode-icons",
+  "displayName": "Cyberpunk Vscode Icons",
   "description": "This is a simple Cyberpunk Icon Pack",
   "version": "0.0.1",
   "publisher": "ggonzalesd",
@@ -18,8 +18,8 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "cyberpunk-glass-icons",
-        "label": "Cyberpunk Glass Icons",
+        "id": "cyberpunk-vscode-icons",
+        "label": "Cyberpunk Vscode Icons",
         "path": "./icon-theme.json"
       }
     ]

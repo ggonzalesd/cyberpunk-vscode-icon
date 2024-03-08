@@ -187,6 +187,10 @@
     "pt": {
       "iconPath": "images/pt.svg"
     },
+    // roblox
+    "roblox": {
+      "iconPath": "images/roblox.svg"
+    },
     // Gamemaker
     "yyp": {
       "iconPath": "images/yyp.svg"
@@ -1026,6 +1030,11 @@
     "ptk": "pt",
     "pkt": "pt",
     "h5": "pt",
+    // Roblox
+    "rbxl": "roblox",
+    "rbxlx": "roblox",
+    "rbxm": "roblox",
+    "rbxmx": "roblox",
     // Gamemaker
     "yyp": "yyp",
     "yy": "yy",
