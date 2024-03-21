@@ -395,6 +395,10 @@
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
     },
+    // Vue
+    "vue": {
+      "iconPath": "images/vue.svg"
+    },
     // Svelte
     "svelte.config": {
       "iconPath": "images/svelte.config.js.svg"
@@ -1118,6 +1122,8 @@
     "auth.ts": "auth.ts",
     "security.ts": "auth.ts",
     "strategy.ts": "strategy.ts",
+    // Vue
+    "vue": "vue",
     // Svelte
     "svelte": "svelte",
     // Arduino
