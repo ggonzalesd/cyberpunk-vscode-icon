@@ -395,9 +395,19 @@
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
     },
+    // Astro
+    "astro": {
+      "iconPath": "images/astro.svg"
+    },
+    "astro.config": {
+      "iconPath": "images/astro.config.svg"
+    },
     // Vue
     "vue": {
       "iconPath": "images/vue.svg"
+    },
+    "vue.config": {
+      "iconPath": "images/vue.config.svg"
     },
     // Svelte
     "svelte.config": {
@@ -496,6 +506,18 @@
     },
     "o": {
       "iconPath": "images/o_.svg"
+    },
+    "unity": {
+      "iconPath": "images/unity.svg"
+    },
+    "prefab": {
+      "iconPath": "images/prefab.svg"
+    },
+    "unitypackage": {
+      "iconPath": "images/unitypackage.svg"
+    },
+    "mat": {
+      "iconPath": "images/mat.svg"
     },
     // Godot
     "godot": {
@@ -1122,6 +1144,8 @@
     "auth.ts": "auth.ts",
     "security.ts": "auth.ts",
     "strategy.ts": "strategy.ts",
+    // Astro
+    "astro": "astro",
     // Vue
     "vue": "vue",
     // Svelte
@@ -1184,6 +1208,11 @@
     "o": "o",
     "out": "o",
     "dll": "o",
+    // Unity
+    "unity": "unity",
+    "prefab": "prefab",
+    "unitypackage": "unitypackage",
+    "mat": "mat",
     // Godot
     "gd": "godot",
     "godot": "godot-assets",
@@ -1806,7 +1835,12 @@
     "layout.tsx": "layout.ts",
     "page.tsx": "index.tsx",
 
+    "astro.config.js": "astro.config",
+    "astro.config.mjs": "astro.config",
+    "vue.config.js": "vue.config",
+    "vue.config.mjs": "vue.config",
     "svelte.config.js": "svelte.config",
+    "svelte.config.mjs": "svelte.config",
 
     "next.config.js": "nextjs",
     "next.config.ts": "nextjs",
