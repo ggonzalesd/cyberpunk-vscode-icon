@@ -510,11 +510,26 @@
     "unity": {
       "iconPath": "images/unity.svg"
     },
+    "unityproj": {
+      "iconPath": "images/unityproj.svg"
+    },
     "prefab": {
       "iconPath": "images/prefab.svg"
     },
+    "meta": {
+      "iconPath": "images/meta.svg"
+    },
+    "anim": {
+      "iconPath": "images/anim.svg"
+    },
+    "physicmaterial": {
+      "iconPath": "images/physicmaterial.svg"
+    },
     "unitypackage": {
       "iconPath": "images/unitypackage.svg"
+    },
+    "cubemap": {
+      "iconPath": "images/cubemap.svg"
     },
     "mat": {
       "iconPath": "images/mat.svg"
@@ -777,6 +792,9 @@
     "folder.resource": {
       "iconPath": "images/folder.resource.svg"
     },
+    "folder.package": {
+      "iconPath": "images/folder.package.svg"
+    },
     "folder.about": {
       "iconPath": "images/folder.about.svg"
     },
@@ -869,8 +887,14 @@
     "folder.ico": {
       "iconPath": "images/folder.ico.svg"
     },
+    "folder.scene": {
+      "iconPath": "images/folder.scene.svg"
+    },
     "folder.shader": {
       "iconPath": "images/folder.glsl.svg"
+    },
+    "folder.unity": {
+      "iconPath": "images/folder.unity.svg"
     },
     "folder.mono": {
       "iconPath": "images/folder.mono.svg"
@@ -1210,7 +1234,14 @@
     "dll": "o",
     // Unity
     "unity": "unity",
+    "unityproj": "unityproj",
     "prefab": "prefab",
+    "meta": "meta",
+    "anim": "anim",
+		"physicmaterial": "physicmaterial",
+		"physicmaterial2d": "physicmaterial",
+		"physicsmaterial": "physicmaterial",
+		"physicsmaterial2d": "physicmaterial",
     "unitypackage": "unitypackage",
     "mat": "mat",
     // Godot
@@ -1342,6 +1373,7 @@
     "ogg": "audio",
     "mid": "audio", "midi": "audio",
     "m4a": "audio",
+    "cubemap": "cubemap",
     "jpg": "img",
     "png": "img",
     "jpeg": "img",
@@ -1481,6 +1513,7 @@
     "storage": "folder.volume",
     "bin": "folder.bin",
     "include": "folder.include",
+    "library": "folder.include",
     "obj": "folder.o",
     "object": "folder.o",
     "objects": "folder.o",
@@ -1495,12 +1528,15 @@
     ".config": "folder.config",
     "configuration": "folder.config",
     "settings": "folder.config",
+    "projectsettings": "folder.config",
     "env": "folder.env",
     ".env": "folder.env",
     "environment": "folder.env",
     "environments": "folder.env",
     "logs": "folder.logs",
     "log": "folder.logs",
+
+    "unity": "folder.unity",
 
     "godot": "folder.godot",
 
@@ -1544,6 +1580,8 @@
     "musics": "folder.audio",
     "font": "folder.font",
     "fonts": "folder.font",
+    "scene": "folder.scene",
+    "scenes": "folder.scene",
     "shader": "folder.shader",
     "shaders": "folder.shader",
     "glsl": "folder.shader",
@@ -1594,6 +1632,9 @@
     "screen": "folder.html",
     "screens": "folder.html",
     "layout": "folder.layout",
+    "layouts": "folder.layout",
+    "package": "folder.package",
+    "packages": "folder.package",
 
     "js": "folder.js",
     "javascript": "folder.js",
@@ -1640,6 +1681,7 @@
     "schemas": "folder.schema",
     "schema": "folder.schema",
     "auth": "folder.auth",
+    "usersettings": "folder.admin",
     "admin": "folder.admin",
     "admins": "folder.admin",
     "moderator": "folder.admin",
@@ -1723,6 +1765,7 @@
     "urls.py": "urls.py",
     "settings.py": "settings.py",
     "program.cs": "main.cs",
+    "main.cs": "main.cs",
     "main.c": "main.c",
     "main.cpp": "main.cpp",
     "requirements.txt": "requirements.txt",
