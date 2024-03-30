@@ -441,6 +441,9 @@
     "dotnet": {
       "iconPath": "images/dotnet.svg"
     },
+    "vsconfig": {
+      "iconPath": "images/vsconfig.svg"
+    },
     // zig
     "zig": {
       "iconPath": "images/zig.svg"
@@ -1726,6 +1729,7 @@
     ".env": "env",
     ".env.example": "env",
     ".vscodeignore": "vscodeignore",
+    ".vsconfig": "vsconfig",
     ".editorconfig": "editorconfig",
     "settings": "config",
     "makefile": "makefile",
