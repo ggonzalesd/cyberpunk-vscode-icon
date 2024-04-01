@@ -242,8 +242,17 @@
       "iconPath": "images/jar.svg"
     },
     // dart
+    "metadata": {
+      "iconPath": "images/metadata.svg"
+    },
+    "pubspec": {
+      "iconPath": "images/pubspec.svg"
+    },
     "dart": {
       "iconPath": "images/dart.svg"
+    },
+    "main.dart": {
+      "iconPath": "images/main.dart.svg"
     },
     // deno
     "deno": {
@@ -774,6 +783,9 @@
     "folder.osx": {
       "iconPath": "images/folder.osx.svg"
     },
+    "folder.ios": {
+      "iconPath": "images/folder.ios.svg"
+    },
     "folder.windows": {
       "iconPath": "images/folder.windows.svg"
     },
@@ -1001,6 +1013,12 @@
     },
     "folder.java": {
       "iconPath": "images/folder.java.svg"
+    },
+    "folder.flutter": {
+      "iconPath": "images/folder.flutter.svg"
+    },
+    "folder.dart": {
+      "iconPath": "images/folder.dart.svg"
     },
     "folder.android": {
       "iconPath": "images/folder.android.svg"
@@ -1481,6 +1499,7 @@
     "osx": "folder.osx",
     "macos": "folder.osx",
     "mac": "folder.osx",
+    "ios": "folder.ios",
     "windows": "folder.windows",
     "linux": "folder.linux",
     "kernel": "folder.linux",
@@ -1701,6 +1720,9 @@
     "__pycache__": "folder.py",
     "ruby": "folder.ruby",
     "java": "folder.java",
+    "flutter": "folder.flutter",
+    "dart": "folder.dart",
+    ".dart_tool": "folder.dart",
     "android": "folder.android",
     "go": "folder.go",
     "rust": "folder.rust"
@@ -1808,6 +1830,12 @@
     "AppExceptionHandler.java": "handler.java",
     "security.java": "security.java",
     "securityconfig.java": "security.java",
+
+    // Flutter
+    ".metadata": "metadata",
+    "pubspec.lock": "pubspec",
+    "pubspec.yaml": "pubspec",
+    "main.dart": "main.dart",
 
     // GO
     "main.go": "main.go",
