@@ -308,6 +308,9 @@
     "comp.js": {
       "iconPath": "images/comp.js.svg"
     },
+    "theme.js": {
+      "iconPath": "images/theme.js.svg"
+    },
     "module.js": {
       "iconPath": "images/module.js.svg"
     },
@@ -317,6 +320,9 @@
     "index.jsx": {
       "iconPath": "images/index.jsx.svg"
     },
+    "slice.js": {
+      "iconPath": "images/slice.js.svg"
+    },
     "layout.js": {
       "iconPath": "images/layout.js.svg"
     },
@@ -325,6 +331,12 @@
     },
     "handler.js": {
       "iconPath": "images/handler.js.svg"
+    },
+    "store.js": {
+      "iconPath": "images/store.js.svg"
+    },
+    "provider.js": {
+      "iconPath": "images/provider.js.svg"
     },
     "model.js": {
       "iconPath": "images/model.js.svg"
@@ -374,6 +386,12 @@
     "handler.ts": {
       "iconPath": "images/handler.ts.svg"
     },
+    "store.ts": {
+      "iconPath": "images/store.ts.svg"
+    },
+    "provider.ts": {
+      "iconPath": "images/provider.ts.svg"
+    },
     "model.ts": {
       "iconPath": "images/model.ts.svg"
     },
@@ -398,6 +416,9 @@
     "comp.ts": {
       "iconPath": "images/comp.ts.svg"
     },
+    "theme.ts": {
+      "iconPath": "images/theme.ts.svg"
+    },
     "module.ts": {
       "iconPath": "images/module.ts.svg"
     },
@@ -406,6 +427,9 @@
     },
     "index.tsx": {
       "iconPath": "images/index.tsx.svg"
+    },
+    "slice.ts": {
+      "iconPath": "images/slice.ts.svg"
     },
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
@@ -944,6 +968,9 @@
     "folder.svelte": {
       "iconPath": "images/folder.svelte.svg"
     },
+    "folder.react": {
+      "iconPath": "images/folder.react.svg"
+    },
     "folder.nextjs": {
       "iconPath": "images/folder.nextjs.svg"
     },
@@ -1151,9 +1178,11 @@
     "mjs": "js",
     "cjs": "js",
     "component.js": "comp.js",
+    "theme.js": "theme.js",
     "comp.js": "comp.js",
     "module.js": "angular",
     "jsx": "jsx",
+    "slice.js": "slice.js",
     "ts": "ts",
     "spec.ts": "spec.ts",
     "test.ts": "spec.ts",
@@ -1161,9 +1190,11 @@
     "mts": "ts",
     "ng-template": "angular",
     "component.ts": "comp.ts",
+    "theme.ts": "theme.ts",
     "comp.ts": "comp.ts",
     "module.ts": "angular",
     "tsx": "tsx",
+    "slice.ts": "slice.ts",
     "app.js": "app.js",
     "config.js": "config.js",
     "conf.js": "config.js",
@@ -1173,6 +1204,9 @@
     "schemas.js": "schema.js",
     "handler.js": "handler.js",
     "interceptor.js": "handler.js",
+    "thunk.js": "handler.js",
+    "store.js": "store.js",
+    "provider.js": "provider.js",
     "model.js": "model.js",
     "models.js": "model.js",
     "entity.js": "model.js",
@@ -1193,6 +1227,9 @@
     "schemas.ts": "schema.ts",
     "handler.ts": "handler.ts",
     "interceptor.ts": "handler.ts",
+    "thunk.ts": "handler.ts",
+    "store.ts": "store.ts",
+    "provider.ts": "provider.ts",
     "model.ts": "model.ts",
     "models.ts": "model.ts",
     "entity.ts": "model.ts",
@@ -1632,12 +1669,14 @@
     "firebase": "folder.firebase",
 
     // node
+    "node": "folder.node_modules",
     "node_modules": "folder.node_modules",
     "yarn": "folder.yarn",
     ".yarn": "folder.yarn",
     "webpack": "folder.webpack",
     ".webpack": "folder.webpack",
     ".svelte-kit": "folder.svelte",
+    "react": "folder.react",
     ".next": "folder.nextjs",
     "redux": "folder.redux",
     "slice": "folder.redux",
@@ -1916,6 +1955,12 @@
 
     "angular.json": "angular",
 
+    "store.ts": "store.ts",
+    "store.js": "store.js",
+    "providers.ts": "provider.ts",
+    "providers.js": "provider.js",
+    "thunks.ts": "handler.ts",
+    "thunks.js": "handler.js",
     "script.js": "index.js",
     "index.js": "index.js",
     "index.mjs": "index.js",
