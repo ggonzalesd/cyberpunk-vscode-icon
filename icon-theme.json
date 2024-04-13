@@ -302,6 +302,9 @@
     "index.js": {
       "iconPath": "images/index.js.svg"
     },
+    "app.js": {
+      "iconPath": "images/app.js.svg"
+    },
     "comp.js": {
       "iconPath": "images/comp.js.svg"
     },
@@ -361,6 +364,9 @@
     },
     "index.ts": {
       "iconPath": "images/index.ts.svg"
+    },
+    "app.ts": {
+      "iconPath": "images/app.ts.svg"
     },
     "schema.ts": {
       "iconPath": "images/schema.ts.svg"
@@ -917,6 +923,14 @@
     "folder.godot": {
       "iconPath": "images/folder.godot.svg"
     },
+    // databases
+    "folder.firebase": {
+      "iconPath": "images/folder.firebase.svg"
+    },
+    // redux
+    "folder.redux": {
+      "iconPath": "images/folder.redux.svg"
+    },
     // node
     "folder.node_modules": {
       "iconPath": "images/folder.node_modules.svg"
@@ -1019,6 +1033,9 @@
     },
     "folder.dart": {
       "iconPath": "images/folder.dart.svg"
+    },
+    "folder.expo": {
+      "iconPath": "images/folder.expo.svg"
     },
     "folder.android": {
       "iconPath": "images/folder.android.svg"
@@ -1147,6 +1164,7 @@
     "comp.ts": "comp.ts",
     "module.ts": "angular",
     "tsx": "tsx",
+    "app.js": "app.js",
     "config.js": "config.js",
     "conf.js": "config.js",
     "config.ts": "config.ts",
@@ -1170,6 +1188,7 @@
     "auth.js": "auth.js",
     "security.js": "auth.js",
     "strategy.js": "strategy.js",
+    "app.ts": "app.ts",
     "schema.ts": "schema.ts",
     "schemas.ts": "schema.ts",
     "handler.ts": "handler.ts",
@@ -1609,6 +1628,9 @@
     "glsl": "folder.shader",
     "hlsl": "folder.shader",
 
+    // database
+    "firebase": "folder.firebase",
+
     // node
     "node_modules": "folder.node_modules",
     "yarn": "folder.yarn",
@@ -1617,6 +1639,9 @@
     ".webpack": "folder.webpack",
     ".svelte-kit": "folder.svelte",
     ".next": "folder.nextjs",
+    "redux": "folder.redux",
+    "slice": "folder.redux",
+    "slices": "folder.redux",
 
     // Front
     "resource": "folder.resource",
@@ -1627,6 +1652,8 @@
     "common": "folder.shared",
     "shared": "folder.shared",
     "gui": "folder.gui",
+    "window": "folder.gui",
+    "ui": "folder.gui",
     "web": "folder.web",
     "network": "folder.web",
     "about": "folder.about",
@@ -1723,6 +1750,7 @@
     "flutter": "folder.flutter",
     "dart": "folder.dart",
     ".dart_tool": "folder.dart",
+    ".expo": "folder.expo",
     "android": "folder.android",
     "go": "folder.go",
     "rust": "folder.rust"
@@ -1762,6 +1790,7 @@
     "license.txt": "license",
     "gradlew": "gradle",
     ".babelrc": "babel",
+    "babel.config.js": "babel",
     "config": "config",
     "config.json": "config.json",
     "settings.json": "config.json",
@@ -1894,9 +1923,9 @@
     "main.js": "index.js",
     "main.mjs": "index.js",
     "main.ts": "index.ts",
-    "app.js": "index.js",
-    "app.mjs": "index.js",
-    "app.ts": "index.ts",
+    "app.js": "app.js",
+    "app.mjs": "app.js",
+    "app.ts": "app.ts",
     "main.jsx": "index.jsx",
     "app.jsx": "index.jsx",
     "page.jsx": "index.jsx",
