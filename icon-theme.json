@@ -26,6 +26,12 @@
     "heroku": {
       "iconPath": "images/heroku.svg"
     },
+    "jest": {
+      "iconPath": "images/jest.svg"
+    },
+    "tailwind": {
+      "iconPath": "images/tailwind.svg"
+    },
     "babel": {
       "iconPath": "images/babel.svg"
     },
@@ -290,6 +296,9 @@
     "js.map": {
       "iconPath": "images/js.map.svg"
     },
+    "spec.jsx": {
+      "iconPath": "images/spec.jsx.svg"
+    },
     "spec.js": {
       "iconPath": "images/spec.js.svg"
     },
@@ -361,6 +370,9 @@
     },
     "ts": {
       "iconPath": "images/ts.svg"
+    },
+    "spec.tsx": {
+      "iconPath": "images/spec.tsx.svg"
     },
     "spec.ts": {
       "iconPath": "images/spec.ts.svg"
@@ -1173,6 +1185,8 @@
     // Javascript
     "js": "js",
     "js.map": "js.map",
+    "spec.jsx": "spec.jsx",
+    "test.jsx": "spec.jsx",
     "spec.js": "spec.js",
     "test.js": "spec.js",
     "mjs": "js",
@@ -1184,6 +1198,8 @@
     "jsx": "jsx",
     "slice.js": "slice.js",
     "ts": "ts",
+    "spec.tsx": "spec.tsx",
+    "test.tsx": "spec.tsx",
     "spec.ts": "spec.ts",
     "test.ts": "spec.ts",
     "d.ts": "d.ts",
@@ -1817,6 +1833,7 @@
     // general
     ".env": "env",
     ".env.example": "env",
+    ".env.test": "env",
     ".vscodeignore": "vscodeignore",
     ".vsconfig": "vsconfig",
     ".editorconfig": "editorconfig",
@@ -1828,8 +1845,12 @@
     "license": "license",
     "license.txt": "license",
     "gradlew": "gradle",
+    "jest.config.js": "jest",
+    "jest.setup.js": "jest",
+    "tailwind.config.js": "tailwind",
     ".babelrc": "babel",
     "babel.config.js": "babel",
+    "babel.config.cjs": "babel",
     "config": "config",
     "config.json": "config.json",
     "settings.json": "config.json",
