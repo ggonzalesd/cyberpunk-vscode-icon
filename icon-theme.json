@@ -271,8 +271,14 @@
     "node": {
       "iconPath": "images/node.svg"
     },
+    "pnpm": {
+      "iconPath": "images/pnpm.svg"
+    },
     "yarn": {
       "iconPath": "images/yarn.svg"
+    },
+    "prisma": {
+      "iconPath": "images/prisma.svg"
     },
     "sequelize": {
       "iconPath": "images/sequelize.svg"
@@ -323,6 +329,9 @@
     "module.js": {
       "iconPath": "images/module.js.svg"
     },
+    "app.module.js": {
+      "iconPath": "images/app.module.js.svg",
+    },
     "jsx": {
       "iconPath": "images/jsx.svg"
     },
@@ -334,6 +343,15 @@
     },
     "layout.js": {
       "iconPath": "images/layout.js.svg"
+    },
+    "error.js": {
+      "iconPath": "images/error.js.svg",
+    },
+    "loading.js": {
+      "iconPath": "images/loading.js.svg"
+    },
+    "404.js": {
+      "iconPath": "images/404.jsx.svg"
     },
     "schema.js": {
       "iconPath": "images/schema.js.svg"
@@ -350,6 +368,12 @@
     "model.js": {
       "iconPath": "images/model.js.svg"
     },
+    "entity.js": {
+      "iconPath": "images/entity.js.svg"
+    },
+    "dto.js": {
+      "iconPath": "images/dto.js.svg"
+    },
     "db.js": {
       "iconPath": "images/db.js.svg"
     },
@@ -362,11 +386,29 @@
     "service.js": {
       "iconPath": "images/service.js.svg"
     },
+    "getway.js": {
+      "iconPath": "images/getway.js.svg",
+    },
     "auth.js": {
       "iconPath": "images/auth.js.svg"
     },
     "strategy.js": {
       "iconPath": "images/strategy.js.svg"
+    },
+    "decorator.js": {
+      "iconPath": "images/decorator.js.svg",
+    },
+    "tools.js": {
+      "iconPath": "images/tool.js.svg",
+    },
+    "class.js": {
+      "iconPath": "images/class.js.svg"
+    },
+    "interface.js": {
+      "iconPath": "images/interface.js.svg"
+    },
+    "enum.js": {
+      "iconPath": "images/enum.js.svg"
     },
     "ts": {
       "iconPath": "images/ts.svg"
@@ -407,6 +449,12 @@
     "model.ts": {
       "iconPath": "images/model.ts.svg"
     },
+    "entity.ts": {
+      "iconPath": "images/entity.ts.svg"
+    },
+    "dto.ts": {
+      "iconPath": "images/dto.ts.svg"
+    },
     "db.ts": {
       "iconPath": "images/db.ts.svg"
     },
@@ -418,6 +466,9 @@
     },
     "service.ts": {
       "iconPath": "images/service.ts.svg"
+    },
+    "getway.ts": {
+      "iconPath": "images/getway.ts.svg",
     },
     "auth.ts": {
       "iconPath": "images/auth.ts.svg"
@@ -434,6 +485,9 @@
     "module.ts": {
       "iconPath": "images/module.ts.svg"
     },
+    "app.module.ts": {
+      "iconPath": "images/app.module.ts.svg",
+    },
     "tsx": {
       "iconPath": "images/tsx.svg"
     },
@@ -445,6 +499,30 @@
     },
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
+    },
+    "error.ts": {
+      "iconPath": "images/error.ts.svg"
+    },
+    "loading.ts": {
+      "iconPath": "images/loading.ts.svg"
+    },
+    "404.ts": {
+      "iconPath": "images/404.tsx.svg"
+    },
+    "decorator.ts": {
+      "iconPath": "images/decorator.ts.svg",
+    },
+    "tools.ts": {
+      "iconPath": "images/tool.ts.svg",
+    },
+    "class.ts": {
+      "iconPath": "images/class.ts.svg"
+    },
+    "interface.ts": {
+      "iconPath": "images/interface.ts.svg"
+    },
+    "enum.ts": {
+      "iconPath": "images/enum.ts.svg"
     },
     // Astro
     "astro": {
@@ -592,8 +670,17 @@
     "godot": {
       "iconPath": "images/godot.svg"
     },
+    "godot-project": {
+      "iconPath": "images/godot-project.svg"
+    },
     "godot-assets": {
       "iconPath": "images/godot-assets.svg"
+    },
+    "godot-shader": {
+      "iconPath": "images/godot-shader.svg"
+    },
+    "godot-config": {
+      "iconPath": "images/godot-config.svg"
     },
     // Haskell
     "hs": {
@@ -647,6 +734,9 @@
     "index.php": {
       "iconPath": "images/index.php.svg"
     },
+    "blade.php": {
+      "iconPath": "images/blade.php.svg"
+    },
     "dev.json": {
       "iconPath": "images/dev.json.svg"
     },
@@ -682,6 +772,9 @@
     },
     "index.css": {
       "iconPath": "images/index.css.svg"
+    },
+    "module.css": {
+      "iconPath": "images/module.css.svg"
     },
     "styl": {
       "iconPath": "images/styl.svg"
@@ -792,8 +885,17 @@
     "folder.volume": {
       "iconPath": "images/folder.storage.svg"
     },
+    "folder.blockchain": {
+      "iconPath": "images/folder.blockchain.svg"
+    },
+    "folder.tag": {
+      "iconPath": "images/folder.tag.svg"
+    },
     "folder.task": {
       "iconPath": "images/folder.task.svg"
+    },
+    "folder.chat": {
+      "iconPath": "images/folder.chat.svg"
     },
     "folder.cache": {
       "iconPath": "images/folder.cache.svg"
@@ -846,11 +948,20 @@
     "folder.asset": {
       "iconPath": "images/folder.asset.svg"
     },
+    "folder.@": {
+      "iconPath": "images/folder.@.svg"
+    },
+    "folder.module": {
+      "iconPath": "images/folder.module.svg",
+    },
     "folder.resource": {
       "iconPath": "images/folder.resource.svg"
     },
     "folder.package": {
       "iconPath": "images/folder.package.svg"
+    },
+    "folder.locale": {
+      "iconPath": "images/folder.locale.svg",
     },
     "folder.about": {
       "iconPath": "images/folder.about.svg"
@@ -963,6 +1074,9 @@
     "folder.firebase": {
       "iconPath": "images/folder.firebase.svg"
     },
+    "folder.prisma": {
+      "iconPath": "images/folder.prisma.svg"
+    },
     // redux
     "folder.redux": {
       "iconPath": "images/folder.redux.svg"
@@ -986,9 +1100,18 @@
     "folder.nextjs": {
       "iconPath": "images/folder.nextjs.svg"
     },
+    "folder.nest": {
+      "iconPath": "images/folder.nest.svg"
+    },
     // Front
     "folder.html": {
       "iconPath": "images/folder.html.svg"
+    },
+    "folder.view": {
+      "iconPath": "images/folder.view.svg",
+    },
+    "folder.screen": {
+      "iconPath": "images/folder.screen.svg",
     },
     "folder.layout": {
       "iconPath": "images/folder.layout.svg"
@@ -1002,8 +1125,17 @@
     "folder.css": {
       "iconPath": "images/folder.css.svg"
     },
+    "folder.sass": {
+      "iconPath": "images/folder.sass.svg"
+    },
+    "folder.provider": {
+      "iconPath": "images/folder.provider.svg",
+    },
     "folder.tool": {
       "iconPath": "images/folder.tool.svg"
+    },
+    "folder.helper": {
+      "iconPath": "images/folder.helper.svg",
     },
     "folder.context": {
       "iconPath": "images/folder.context.svg"
@@ -1033,14 +1165,23 @@
     "folder.auth": {
       "iconPath": "images/folder.auth.svg"
     },
+    "folder.guard": {
+      "iconPath": "images/folder.guards.svg"
+    },
     "folder.db": {
       "iconPath": "images/folder.db.svg"
     },
     "folder.migrations": {
       "iconPath": "images/folder.migrations.svg"
     },
+    "folder.strategy": {
+      "iconPath": "images/folder.strategy.svg"
+    },
     "folder.service": {
       "iconPath": "images/folder.service.svg"
+    },
+    "folder.getway": {
+      "iconPath": "images/folder.getway.svg",
     },
     "folder.schema": {
       "iconPath": "images/folder.schema.svg"
@@ -1194,7 +1335,7 @@
     "component.js": "comp.js",
     "theme.js": "theme.js",
     "comp.js": "comp.js",
-    "module.js": "angular",
+    "module.js": "module.js",
     "jsx": "jsx",
     "slice.js": "slice.js",
     "ts": "ts",
@@ -1208,7 +1349,7 @@
     "component.ts": "comp.ts",
     "theme.ts": "theme.ts",
     "comp.ts": "comp.ts",
-    "module.ts": "angular",
+    "module.ts": "module.ts",
     "tsx": "tsx",
     "slice.ts": "slice.ts",
     "app.js": "app.js",
@@ -1219,54 +1360,76 @@
     "schema.js": "schema.js",
     "schemas.js": "schema.js",
     "handler.js": "handler.js",
+    "middleware.js": "handler.js",
     "interceptor.js": "handler.js",
     "thunk.js": "handler.js",
     "store.js": "store.js",
+    "api.js": "provider.js",
     "provider.js": "provider.js",
     "model.js": "model.js",
     "models.js": "model.js",
-    "entity.js": "model.js",
+    "entity.js": "entity.js",
+    "dto.js": "dto.js",
     "db.js": "db.js",
     "pool.js": "db.js",
     "database.js": "db.js",
     "route.js": "route.js",
     "router.js": "route.js",
     "routes.js": "route.js",
-    "controller.js": "controller.js",
+    "controller.js": "route.js",
+    "game.js": "controller.js",
     "service.js": "service.js",
+    "getway.js": "getway.js",
     "guard.js": "auth.js",
     "auth.js": "auth.js",
     "security.js": "auth.js",
     "strategy.js": "strategy.js",
+    "decorator.js": "decorator.js",
+    "tools.js": "tools.js",
+    "utils.js": "tools.js",
+    "class.js": "class.js",
+    "enum.js": "enum.js",
     "app.ts": "app.ts",
     "schema.ts": "schema.ts",
     "schemas.ts": "schema.ts",
     "handler.ts": "handler.ts",
+    "middleware.ts": "handler.ts",
     "interceptor.ts": "handler.ts",
     "thunk.ts": "handler.ts",
     "store.ts": "store.ts",
+    "api.ts": "provider.ts",
     "provider.ts": "provider.ts",
     "model.ts": "model.ts",
     "models.ts": "model.ts",
-    "entity.ts": "model.ts",
+    "entity.ts": "entity.ts",
+    "dto.ts": "dto.ts",
     "db.ts": "db.ts",
     "pool.ts": "db.ts",
     "database.ts": "db.ts",
     "route.ts": "route.ts",
     "router.ts": "route.ts",
     "routes.ts": "route.ts",
-    "controller.ts": "controller.ts",
+    "controller.ts": "route.ts",
+    "game.ts": "controller.ts",
     "service.ts": "service.ts",
+    "getway.ts": "getway.ts",
     "guard.ts": "auth.ts",
     "auth.ts": "auth.ts",
     "security.ts": "auth.ts",
     "strategy.ts": "strategy.ts",
+    "decorator.ts": "decorator.ts",
+    "tools.ts": "tools.ts",
+    "utils.ts": "tools.ts",
+    "class.ts": "class.ts",
+    "enum.ts": "enum.ts",
     // Astro
     "astro": "astro",
     // Vue
     "vue": "vue",
     // Svelte
     "svelte": "svelte",
+    // prisma
+    "prisma": "prisma",
     // Arduino
     "ino": "ino",
     // CS DOTNET
@@ -1339,14 +1502,15 @@
     "mat": "mat",
     // Godot
     "gd": "godot",
-    "godot": "godot-assets",
+    "godot": "godot-project",
     "tres": "godot-assets",
     "tscn": "godot-assets",
     "gdns": "godot-assets",
     "gdnlib": "godot-assets",
-    "gdshader": "godot-assets",
-    "gdshaderinc": "godot-assets",
+    "gdshader": "godot-shader",
+    "gdshaderinc": "godot-shader",
     "gdextension": "godot-assets",
+    "import": "godot-config",
     // Haskell
     "hs": "hs",
     // info
@@ -1399,6 +1563,7 @@
     "pug": "pug",
     "http": "http",
     "php": "php",
+    "blade.php": "blade.php",
     "graphql": "graphql",
     "gql": "graphql",
     "dev.json": "dev.json",
@@ -1410,10 +1575,14 @@
     "html": "html",
     "htm": "html",
     "css": "css",
+    "module.css": "module.css",
     "sass": "sass",
     "scss": "sass",
+    "module.sass": "index.sass",
     "less": "less",
+    "module.less": "index.less",
     "styl": "styl",
+    "module.styl": "index.styl",
     "css.map": "css.map",
     // Binary
     "exe": "exe",
@@ -1526,6 +1695,7 @@
     "png~": "copy",
     // Shader
     "glsl": "glsl",
+    "shader": "glsl",
     "frag": "frag",
     "fsh": "frag",
     "vert": "vert",
@@ -1564,6 +1734,8 @@
     "ps1": "script",
   },
   "folderNames": {
+    "blockchain": "folder.blockchain",
+    "crypto": "folder.crypto",
     "github": "folder.github",
     ".github": "folder.github",
     "bsd": "folder.bsd",
@@ -1576,6 +1748,7 @@
     "linux": "folder.linux",
     "kernel": "folder.linux",
     "home": "folder.home",
+    "(home)": "folder.home",
     "src": "folder.src",
     "code": "folder.src",
     "api": "folder.api",
@@ -1595,7 +1768,11 @@
     "models": "folder.model",
     "filter": "folder.filter",
     "filters": "folder.filter",
+    "tag": "folder.tag",
+    "tags": "folder.tag",
     "tasks": "folder.task",
+    "chat": "folder.chat",
+    "messages": "folder.chat",
     "cache": "folder.cache",
     "debug": "folder.debug",
     "target": "folder.target",
@@ -1625,6 +1802,8 @@
     "projectsettings": "folder.config",
     "env": "folder.env",
     ".env": "folder.env",
+    "venv": "folder.env",
+    ".venv": "folder.env",
     "environment": "folder.env",
     "environments": "folder.env",
     "logs": "folder.logs",
@@ -1633,6 +1812,7 @@
     "unity": "folder.unity",
 
     "godot": "folder.godot",
+    ".godot": "folder.godot",
 
     // mono
     ".mono": "folder.mono",
@@ -1649,6 +1829,7 @@
     "docker": "folder.docker",
     ".docker": "folder.docker",
     "mvn": "folder.maven",
+    ".idea": "folder.maven",
     ".mvn":"folder.maven",
     "maven": "folder.maven",
     "gradle": "folder.gradle",
@@ -1676,6 +1857,8 @@
     "fonts": "folder.font",
     "scene": "folder.scene",
     "scenes": "folder.scene",
+    "action": "folder.scene",
+    "actions": "folder.scene",
     "shader": "folder.shader",
     "shaders": "folder.shader",
     "glsl": "folder.shader",
@@ -1683,6 +1866,7 @@
 
     // database
     "firebase": "folder.firebase",
+    "prisma": "folder.prisma",
 
     // node
     "node": "folder.node_modules",
@@ -1694,6 +1878,7 @@
     ".svelte-kit": "folder.svelte",
     "react": "folder.react",
     ".next": "folder.nextjs",
+    "nest": "folder.nest",
     "redux": "folder.redux",
     "slice": "folder.redux",
     "slices": "folder.redux",
@@ -1723,27 +1908,41 @@
     "contexts": "folder.context",
     "theme": "folder.theme",
     "themes": "folder.theme",
+    "helper": "folder.helper",
+    "helpers": "folder.helper",
+    "provider": "folder.api",
+    "providers": "folder.api",
     "util": "folder.tool",
     "utils": "folder.tool",
     "tool": "folder.tool",
     "tools": "folder.tool",
     "templates": "folder.templates",
-    "view": "folder.html",
-    "views": "folder.html",
-    "page": "folder.html",
-    "pages": "folder.html",
     "html": "folder.html",
-    "screen": "folder.html",
-    "screens": "folder.html",
+    "view": "folder.view",
+    "views": "folder.view",
+    "page": "folder.web",
+    "pages": "folder.web",
+    "screen": "folder.screen",
+    "screens": "folder.screen",
     "layout": "folder.layout",
     "layouts": "folder.layout",
+    "module": "folder.module",
+    "modules": "folder.module",
+    "@": "folder.@",
+    "decorator": "folder.@",
+    "decorators": "folder.@",
     "package": "folder.package",
     "packages": "folder.package",
+    "locale": "folder.locale",
+    "i18n": "folder.locale",
+    "lang": "folder.locale",
 
     "js": "folder.js",
     "javascript": "folder.js",
     "css": "folder.css",
     "styles": "folder.css",
+    "sass": "folder.sass",
+    "scss": "folder.sass",
     "ts": "folder.ts",
     "types": "folder.d.ts",
     "typescript": "folder.ts",
@@ -1753,6 +1952,8 @@
     "comps": "folder.comp",
     "component": "folder.comp",
     "components": "folder.comp",
+    "widget": "folder.comp",
+    "widgets": "folder.comp",
     "plugin": "folder.comp",
     "plugins": "folder.comp",
 
@@ -1772,21 +1973,32 @@
     "routers": "folder.router",
     "route": "folder.router",
     "routes": "folder.router",
-    "controller": "folder.controller",
-    "controllers": "folder.controller",
+    "controller": "folder.router",
+    "controllers": "folder.router",
+    "path": "folder.router",
+    "game": "folder.controller",
     "handler": "folder.handler",
     "handlers": "folder.handler",
     "interceptor": "folder.handler",
     "interceptors": "folder.handler",
+    "pipe": "folder.handler",
+    "pipes": "folder.handler",
     "middlewares": "folder.handler",
     "middleware": "folder.handler",
+    "strategy": "folder.strategy",
+    "strategies": "folder.strategy",
     "service": "folder.service",
     "services": "folder.service",
+    "getway": "folder.getway",
     "schemas": "folder.schema",
     "schema": "folder.schema",
+    "guard": "folder.guard",
+    "guards": "folder.guard",
     "auth": "folder.auth",
+    "(auth)": "folder.auth",
     "usersettings": "folder.admin",
     "admin": "folder.admin",
+    "(admin)": "folder.admin",
     "admins": "folder.admin",
     "moderator": "folder.admin",
     "moderators": "folder.admin",
@@ -1848,6 +2060,7 @@
     "jest.config.js": "jest",
     "jest.setup.js": "jest",
     "tailwind.config.js": "tailwind",
+    "tailwind.config.ts": "tailwind",
     ".babelrc": "babel",
     "babel.config.js": "babel",
     "babel.config.cjs": "babel",
@@ -1888,6 +2101,7 @@
     "readme.md": "readme.md",
     "help.md": "readme.md",
     "index.php": "index.php",
+    "artisan": "index.php",
     "index.html": "index.html",
     "index.pug": "index.pug",
     "app.html": "index.html",
@@ -1895,12 +2109,16 @@
 
     "index.css": "index.css",
     "style.css": "index.css",
+    "styles.css": "index.css",
+    "globals.css": "index.css",
     "index.styl": "index.styl",
     "style.styl": "index.styl",
     "index.sass": "index.sass",
     "style.sass": "index.sass",
     "index.scss": "index.sass",
     "style.scss": "index.sass",
+    "globals.sass": "index.sass",
+    "_variables.sass": "index.sass",
     "index.less": "index.less",
     "style.less": "index.less",
 
@@ -1939,6 +2157,7 @@
     // NODE
     "package.json": "package.node",
     "package-lock.json": "node",
+    "pnpm-lock.yaml": "pnpm",
     "yarn.lock": "yarn",
     ".yarnrc": "yarn",
     "yarnrc.lock": "yarn",
@@ -1980,29 +2199,49 @@
     "store.js": "store.js",
     "providers.ts": "provider.ts",
     "providers.js": "provider.js",
+    "api.ts": "provider.ts",
+    "api.js": "provider.js",
+    "route.js": "route.js",
+    "route.ts": "route.ts",
+    "route.jsx": "route.js",
+    "route.tsx": "route.ts",
     "thunks.ts": "handler.ts",
     "thunks.js": "handler.js",
+    "app.module.js": "app.module.js",
+    "app.module.ts": "app.module.ts",
     "script.js": "index.js",
     "index.js": "index.js",
     "index.mjs": "index.js",
     "index.ts": "index.ts",
-    "main.js": "index.js",
+    "main.js": "app.js",
     "main.mjs": "index.js",
-    "main.ts": "index.ts",
+    "main.ts": "app.ts",
     "app.js": "app.js",
     "app.mjs": "app.js",
     "app.ts": "app.ts",
+    "app.jsx": "app.js",
+    "app.tsx": "app.ts",
     "main.jsx": "index.jsx",
-    "app.jsx": "index.jsx",
     "page.jsx": "index.jsx",
     "index.jsx": "index.jsx",
     "index.tsx": "index.tsx",
     "main.tsx": "index.tsx",
-    "app.tsx": "index.tsx",
     "layout.js": "layout.js",
     "layout.jsx": "layout.js",
     "layout.ts": "layout.ts",
     "layout.tsx": "layout.ts",
+    "error.js": "error.js",
+    "error.jsx": "error.js",
+    "error.ts": "error.ts",
+    "error.tsx": "error.ts",
+    "loading.js": "loading.js",
+    "loading.jsx": "loading.js",
+    "loading.ts": "loading.ts",
+    "loading.tsx": "loading.ts",
+    "not-found.js": "404.js",
+    "not-found.jsx": "404.js",
+    "not-found.ts": "404.ts",
+    "not-found.tsx": "404.ts",
     "page.tsx": "index.tsx",
 
     "astro.config.js": "astro.config",
@@ -2013,6 +2252,7 @@
     "svelte.config.mjs": "svelte.config",
 
     "next.config.js": "nextjs",
+    "next.config.mjs": "nextjs",
     "next.config.ts": "nextjs",
     "nest-cli.json": "nestjs",
 
