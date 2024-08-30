@@ -41,6 +41,9 @@
     "debug": {
       "iconPath": "images/debug.svg"
     },
+    "rocket": {
+      "iconPath": "images/rocket.svg"
+    },
     "dist": {
       "iconPath": "images/dist.svg"
     },
@@ -70,6 +73,9 @@
     },
     "eslint": {
       "iconPath": "images/eslint.svg"
+    },
+    "postcss": {
+      "iconPath": "images/postcss.svg"
     },
     "prettier": {
       "iconPath": "images/prettier.svg"
@@ -326,6 +332,9 @@
     "theme.js": {
       "iconPath": "images/theme.js.svg"
     },
+    "locale.js": {
+      "iconPath": "images/locale.js.svg"
+    },
     "module.js": {
       "iconPath": "images/module.js.svg"
     },
@@ -335,11 +344,26 @@
     "jsx": {
       "iconPath": "images/jsx.svg"
     },
+    "router.jsx": {
+      "iconPath": "images/router.jsx.svg"
+    },
+    "_route.js": {
+      "iconPath": "images/_route.js.svg"
+    },
     "index.jsx": {
       "iconPath": "images/index.jsx.svg"
     },
+    "page.jsx": {
+      "iconPath": "images/page.jsx.svg"
+    },
+    "default.jsx": {
+      "iconPath": "images/default.jsx.svg"
+    },
     "slice.js": {
       "iconPath": "images/slice.js.svg"
+    },
+    "state.js": {
+      "iconPath": "images/state.js.svg"
     },
     "layout.js": {
       "iconPath": "images/layout.js.svg"
@@ -397,6 +421,9 @@
     },
     "decorator.js": {
       "iconPath": "images/decorator.js.svg",
+    },
+    "server.js": {
+      "iconPath": "images/server.js.svg"
     },
     "tools.js": {
       "iconPath": "images/tool.js.svg",
@@ -482,6 +509,9 @@
     "theme.ts": {
       "iconPath": "images/theme.ts.svg"
     },
+    "locale.ts": {
+      "iconPath": "images/locale.ts.svg"
+    },
     "module.ts": {
       "iconPath": "images/module.ts.svg"
     },
@@ -491,11 +521,26 @@
     "tsx": {
       "iconPath": "images/tsx.svg"
     },
+    "router.tsx": {
+      "iconPath": "images/router.tsx.svg"
+    },
+    "_route.ts": {
+      "iconPath": "images/_route.ts.svg"
+    },
     "index.tsx": {
       "iconPath": "images/index.tsx.svg"
     },
+    "page.tsx": {
+      "iconPath": "images/page.tsx.svg"
+    },
+    "default.tsx": {
+      "iconPath": "images/default.tsx.svg"
+    },
     "slice.ts": {
       "iconPath": "images/slice.ts.svg"
+    },
+    "state.ts": {
+      "iconPath": "images/state.ts.svg"
     },
     "layout.ts": {
       "iconPath": "images/layout.ts.svg"
@@ -511,6 +556,9 @@
     },
     "decorator.ts": {
       "iconPath": "images/decorator.ts.svg",
+    },
+    "server.ts": {
+      "iconPath": "images/server.ts.svg"
     },
     "tools.ts": {
       "iconPath": "images/tool.ts.svg",
@@ -876,6 +924,9 @@
     "folder.github": {
       "iconPath": "images/folder.github.svg"
     },
+    "folder.git": {
+      "iconPath": "images/folder.git.svg"
+    },
     "folder.error": {
       "iconPath": "images/folder.error.svg"
     },
@@ -902,6 +953,9 @@
     },
     "folder.debug": {
       "iconPath": "images/folder.debug.svg"
+    },
+    "folder.rocket": {
+      "iconPath": "images/folder.rocket.svg"
     },
     "folder.dist": {
       "iconPath": "images/folder.dist.svg"
@@ -957,6 +1011,9 @@
     "folder.resource": {
       "iconPath": "images/folder.resource.svg"
     },
+    "folder.review": {
+      "iconPath": "images/folder.review.svg",
+    },
     "folder.package": {
       "iconPath": "images/folder.package.svg"
     },
@@ -971,6 +1028,9 @@
     },
     "folder.store": {
       "iconPath": "images/folder.store.svg"
+    },
+    "folder.state": {
+      "iconPath": "images/folder.state.svg"
     },
     "folder.server": {
       "iconPath": "images/folder.server.svg"
@@ -1042,6 +1102,9 @@
     // Media
     "folder.img": {
       "iconPath": "images/folder.img.svg"
+    },
+    "folder.svg": {
+      "iconPath": "images/folder.svg.svg"
     },
     "folder.video": {
       "iconPath": "images/folder.video.svg"
@@ -1334,10 +1397,13 @@
     "cjs": "js",
     "component.js": "comp.js",
     "theme.js": "theme.js",
+    "locale.js": "locale.js",
+    "lang.js": "locale.js",
     "comp.js": "comp.js",
     "module.js": "module.js",
     "jsx": "jsx",
     "slice.js": "slice.js",
+    "state.js": "state.js",
     "ts": "ts",
     "spec.tsx": "spec.tsx",
     "test.tsx": "spec.tsx",
@@ -1348,10 +1414,13 @@
     "ng-template": "angular",
     "component.ts": "comp.ts",
     "theme.ts": "theme.ts",
+    "locale.ts": "locale.ts",
+    "lang.ts": "locale.ts",
     "comp.ts": "comp.ts",
     "module.ts": "module.ts",
     "tsx": "tsx",
     "slice.ts": "slice.ts",
+    "state.ts": "state.ts",
     "app.js": "app.js",
     "config.js": "config.js",
     "conf.js": "config.js",
@@ -1385,8 +1454,12 @@
     "security.js": "auth.js",
     "strategy.js": "strategy.js",
     "decorator.js": "decorator.js",
+    "server.js": "server.js",
+    "action.js": "server.js",
     "tools.js": "tools.js",
+    "tool.js": "tools.js",
     "utils.js": "tools.js",
+    "util.js": "tools.js",
     "class.js": "class.js",
     "enum.js": "enum.js",
     "app.ts": "app.ts",
@@ -1418,8 +1491,12 @@
     "security.ts": "auth.ts",
     "strategy.ts": "strategy.ts",
     "decorator.ts": "decorator.ts",
+    "server.ts": "server.ts",
+    "action.ts": "server.ts",
     "tools.ts": "tools.ts",
+    "tool.ts": "tools.ts",
     "utils.ts": "tools.ts",
+    "util.ts": "tools.ts",
     "class.ts": "class.ts",
     "enum.ts": "enum.ts",
     // Astro
@@ -1738,12 +1815,14 @@
     "crypto": "folder.crypto",
     "github": "folder.github",
     ".github": "folder.github",
+    ".git": "folder.git",
     "bsd": "folder.bsd",
     "freebsd": "folder.bsd",
     "osx": "folder.osx",
     "macos": "folder.osx",
     "mac": "folder.osx",
     "ios": "folder.ios",
+    "apple": "folder.ios",
     "windows": "folder.windows",
     "linux": "folder.linux",
     "kernel": "folder.linux",
@@ -1775,6 +1854,9 @@
     "messages": "folder.chat",
     "cache": "folder.cache",
     "debug": "folder.debug",
+    "launchpad": "folder.rocket",
+    "launch": "folder.rocket",
+    "deploy": "folder.rocket",
     "target": "folder.target",
     "dist": "folder.dist",
     "build": "folder.dist",
@@ -1843,6 +1925,8 @@
     "icons": "folder.ico",
     "images": "folder.img",
     "image": "folder.img",
+    "svg": "folder.svg",
+    "svgs": "folder.svg",
     "videos": "folder.video",
     "video": "folder.video",
     "movie": "folder.video",
@@ -1886,6 +1970,8 @@
     // Front
     "resource": "folder.resource",
     "resources": "folder.resource",
+    "review": "folder.review",
+    "reviews": "folder.review",
     "assets": "folder.asset",
     "static": "folder.static",
     "public": "folder.public",
@@ -1898,6 +1984,7 @@
     "network": "folder.web",
     "about": "folder.about",
     "store": "folder.store",
+    "state": "folder.state",
     "server": "folder.server",
     "client": "folder.client",
     "hook": "folder.hook",
@@ -2176,11 +2263,13 @@
     "webpack.config.ts": "webpack",
     ".npmrc": "node",
     ".nvmrc": "node",
+    "postcss.config.js": "postcss",
     ".eslintrc": "eslint",
     ".eslintrc.js": "eslint",
     ".eslintrc.cjs": "eslint",
     ".eslintrc.mjs": "eslint",
     ".eslintrc.json": "eslint",
+    "eslint.config.js": "eslint",
     ".prettierrc": "prettier",
     "config.js": "config.js",
     "config.ts": "config.ts",
@@ -2201,10 +2290,18 @@
     "providers.js": "provider.js",
     "api.ts": "provider.ts",
     "api.js": "provider.js",
-    "route.js": "route.js",
-    "route.ts": "route.ts",
-    "route.jsx": "route.js",
-    "route.tsx": "route.ts",
+    "route.js": "_route.js",
+    "route.ts": "_route.ts",
+    "routes.js": "route.js",
+    "routes.ts": "route.ts",
+    "router.js": "route.js",
+    "router.ts": "route.ts",
+    "route.jsx": "route.jsx",
+    "route.tsx": "route.tsx",
+    "routes.jsx": "route.jsx",
+    "routes.tsx": "route.tsx",
+    "router.tsx": "router.tsx",
+    "router.jsx": "router.jsx",
     "thunks.ts": "handler.ts",
     "thunks.js": "handler.js",
     "app.module.js": "app.module.js",
@@ -2222,10 +2319,14 @@
     "app.jsx": "app.js",
     "app.tsx": "app.ts",
     "main.jsx": "index.jsx",
-    "page.jsx": "index.jsx",
+    "page.jsx": "page.jsx",
     "index.jsx": "index.jsx",
+    "default.jsx": "default.jsx",
+    "default.js": "default.jsx",
     "index.tsx": "index.tsx",
     "main.tsx": "index.tsx",
+    "default.tsx": "default.tsx",
+    "default.ts": "default.tsx",
     "layout.js": "layout.js",
     "layout.jsx": "layout.js",
     "layout.ts": "layout.ts",
@@ -2242,7 +2343,7 @@
     "not-found.jsx": "404.js",
     "not-found.ts": "404.ts",
     "not-found.tsx": "404.ts",
-    "page.tsx": "index.tsx",
+    "page.tsx": "page.tsx",
 
     "astro.config.js": "astro.config",
     "astro.config.mjs": "astro.config",
